@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WP Plugin Radar</title>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --line:#262b36; --txt:#e6e8ee; --mut:#8b93a7; --acc:#5b9cff; --up:#3ddc97; --warn:#ffb454; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f7fa; --panel:#fff; --line:#e3e6ee; --txt:#1a1d26; --mut:#6b7280; } }
+  * { box-sizing:border-box }
+  body { margin:0; font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--txt) }
+  header { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:baseline; flex-wrap:wrap }
+  header h1 { margin:0; font-size:20px } header .meta { color:var(--mut); font-size:13px }
+  nav { display:flex; gap:4px; padding:10px 24px; border-bottom:1px solid var(--line); flex-wrap:wrap; position:sticky; top:0; background:var(--bg); z-index:2 }
+  nav button { background:none; border:1px solid transparent; color:var(--mut); padding:6px 12px; border-radius:8px; cursor:pointer; font:inherit }
+  nav button.on { color:var(--txt); border-color:var(--line); background:var(--panel) }
+  main { padding:18px 24px; max-width:1400px }
+  section { display:none } section.on { display:block }
+  h2 { font-size:16px; margin:22px 0 8px } h2 small { color:var(--mut); font-weight:400; margin-left:8px }
+  .tools { display:flex; gap:10px; margin:8px 0 12px; align-items:center }
+  input[type=search] { background:var(--panel); border:1px solid var(--line); color:var(--txt); padding:7px 10px; border-radius:8px; width:260px; font:inherit }
+  table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow:hidden }
+  th, td { padding:8px 10px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top }
+  th { color:var(--mut); font-weight:600; cursor:pointer; user-select:none; white-space:nowrap; font-size:12px; text-transform:uppercase; letter-spacing:.03em }
+  th.sorted::after { content:" ▾"; color:var(--acc) } th.sorted.asc::after { content:" ▴" }
+  tr:last-child td { border-bottom:0 } td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap }
+  a { color:var(--acc); text-decoration:none } a:hover { text-decoration:underline }
+  .tag { display:inline-block; background:var(--bg); border:1px solid var(--line); color:var(--mut); border-radius:6px; padding:1px 6px; margin:1px 3px 1px 0; font-size:11px }
+  .pos { color:var(--up) } .neg { color:var(--warn) }
+  .desc { color:var(--mut); font-size:12px; max-width:420px }
+  ul.opps { padding-left:18px } ul.opps li { margin:6px 0 }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin:10px 0 }
+  .card h3 { margin:0 0 6px; font-size:14px } .card .rv { margin:6px 0; padding-left:10px; border-left:3px solid var(--line) }
+  .card .rv.bad { border-color:var(--warn) } .stars { color:var(--warn); font-size:12px }
+  .empty { color:var(--mut); padding:14px; background:var(--panel); border:1px dashed var(--line); border-radius:10px }
+</style>
+</head>
+<body>
+<header>
+  <h1>WP Plugin Radar</h1>
+  <span class="meta" id="meta">loading…</span>
+</header>
+<nav id="nav"></nav>
+<main>
+  <div class="tools"><input type="search" id="q" placeholder="filter by name, slug, tag, author…"></div>
+  <section id="opps"><h2>💡 Opportunities <small>heuristic hints – verify before building</small></h2><ul class="opps" id="opps-list"></ul>
+    <h2>🏷️ Category heat <small>where new &amp; rising plugins cluster</small></h2><div id="heat"></div></section>
+  <section id="new"><h2>🆕 New plugins (last 30 days) ranked by traction</h2><div id="new-t"></div></section>
+  <section id="week"><h2>🚀 Fast risers <small>biggest % download growth this week</small></h2><div id="w-fast"></div>
+    <h2>🔥 Booming <small>biggest absolute download gain this week</small></h2><div id="w-boom"></div>
+    <h2>⭐ Most new reviews this week</h2><div id="w-rev"></div></section>
+  <section id="month"><h2>🚀 Fast risers <small>biggest % download growth this month</small></h2><div id="m-fast"></div>
+    <h2>🔥 Booming <small>biggest absolute download gain this month</small></h2><div id="m-boom"></div>
+    <h2>⭐ Most new reviews this month</h2><div id="m-rev"></div></section>
+  <section id="top"><h2>🏆 Most installed (of plugins seen today)</h2><div id="top-inst"></div>
+    <h2>⭐ Most reviewed all-time</h2><div id="top-rev"></div></section>
+  <section id="velocity"><h2>📈 Download velocity <small>tracked plugins: last 7 days vs previous 7</small></h2><div id="vel"></div></section>
+  <section id="reviews"><h2>🗣️ What users are saying <small>tracked plugins · complaints &amp; wishes = your feature list</small></h2><div id="rev"></div></section>
+</main>
+<script>
+const TABS = [["opps","Opportunities"],["new","New"],["week","This week"],["month","This month"],["top","Top"],["velocity","Velocity"],["reviews","Reviews"]];
+const esc = s => String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = n => n==null ? "" : Number(n).toLocaleString();
+const delta = n => n==null ? "" : `<span class="${n>=0?'pos':'neg'}">${n>=0?'+':''}${fmt(n)}</span>`;
+const pctf = n => n==null ? "" : `<span class="${n>=0?'pos':'neg'}">${n>=0?'+':''}${n}%</span>`;
+const tags = a => (a||[]).slice(0,6).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
+const link = r => `<a href="${r.url||('https://wordpress.org/plugins/'+r.slug+'/')}" target="_blank" rel="noopener">${esc(r.name||r.slug)}</a>`
+  + (r.short_description?`<div class="desc">${esc(r.short_description)}</div>`:"");
+
+const COLS = {
+  name:["Plugin", link, "txt"], author:["Author", r=>esc(r.author), "txt"], days_old:["Age (d)", r=>fmt(r.days_old), "num"],
+  active_installs:["Active installs", r=>fmt(r.active_installs), "num"], downloaded:["Downloads", r=>fmt(r.downloaded), "num"],
+  downloads_per_day_lifetime:["DL/day (life)", r=>fmt(r.downloads_per_day_lifetime), "num"],
+  downloads_per_day:["DL/day", r=>fmt(r.downloads_per_day), "num"],
+  delta_downloaded:["Δ downloads", r=>delta(r.delta_downloaded), "num"], delta_downloaded_pct:["Δ %", r=>pctf(r.delta_downloaded_pct), "num"],
+  delta_active_installs:["Δ installs", r=>delta(r.delta_active_installs), "num"],
+  delta_num_ratings:["Δ ratings", r=>delta(r.delta_num_ratings), "num"],
+  rating:["Rating", r=>r.rating?r.rating+"/100":"", "num"], num_ratings:["Ratings", r=>fmt(r.num_ratings), "num"],
+  support:["Support", r=>`${r.support_threads_resolved}/${r.support_threads}`, "num"],
+  tags:["Tags", r=>tags(r.tags), "txt"], added:["Added", r=>r.added, "txt"],
+};
+let DATA, filter = "";
+
+function table(el, rows, cols, sortKey) {
+  const host = document.getElementById(el);
+  if (!rows || !rows.length) { host.innerHTML = `<div class="empty">No data yet – this fills in once there is an older snapshot to compare against.</div>`; return; }
+  let key = sortKey, asc = false;
+  const render = () => {
+    const q = filter.toLowerCase();
+    let rs = rows.filter(r => !q || [r.name,r.slug,r.author,(r.tags||[]).join(" ")].join(" ").toLowerCase().includes(q));
+    rs = rs.slice().sort((a,b)=>{ const x=a[key]??-Infinity, y=b[key]??-Infinity; return (x>y?1:x<y?-1:0)*(asc?1:-1); });
+    host.innerHTML = `<table><thead><tr>${cols.map(c=>`<th data-k="${c}" class="${c===key?'sorted':''} ${asc?'asc':''}">${COLS[c][0]}</th>`).join("")}</tr></thead>
+      <tbody>${rs.map(r=>`<tr>${cols.map(c=>`<td class="${COLS[c][2]}">${COLS[c][1](r)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+    host.querySelectorAll("th").forEach(th => th.onclick = () => { const k=th.dataset.k; if(k===key) asc=!asc; else {key=k; asc=false;} render(); });
+  };
+  render(); host._render = render;
+}
+
+function heat(rows) {
+  document.getElementById("heat").innerHTML = rows.length ? `<table><thead><tr><th>Tag</th><th>New plugins</th><th>Rising</th><th>Δ downloads</th><th>Examples</th></tr></thead><tbody>
+    ${rows.map(r=>`<tr><td><span class="tag">${esc(r.tag)}</span></td><td class="num">${r.new_plugins}</td><td class="num">${r.rising_plugins}</td><td class="num">${delta(r.delta_downloads)}</td>
+      <td>${r.examples.map(s=>`<a href="https://wordpress.org/plugins/${s}/" target="_blank">${s}</a>`).join(", ")}</td></tr>`).join("")}</tbody></table>` : `<div class="empty">No data yet.</div>`;
+}
+
+function velocity(rows) {
+  const h = document.getElementById("vel");
+  h.innerHTML = rows.length ? `<table><thead><tr><th>Plugin</th><th>Avg/day last 7</th><th>Avg/day prev 7</th><th>Acceleration</th><th>Last 14 days</th></tr></thead><tbody>
+    ${rows.map(r=>`<tr><td><a href="https://wordpress.org/plugins/${r.slug}/" target="_blank">${r.slug}</a></td><td class="num">${fmt(r.avg_last7)}</td><td class="num">${fmt(r.avg_prev7)}</td>
+      <td class="num">${pctf(r.accel_pct)}</td><td class="desc">${r.series.map(([d,v])=>v).join(" · ")}</td></tr>`).join("")}</tbody></table>`
+    : `<div class="empty">Download history appears after a few daily runs (needs ≥ 8 days of data per plugin).</div>`;
+}
+
+function reviews(rows) {
+  const h = document.getElementById("rev");
+  h.innerHTML = rows.length ? rows.map(r => `<div class="card"><h3><a href="https://wordpress.org/support/plugin/${r.slug}/reviews/" target="_blank">${r.slug}</a>
+      <small class="meta"> · ${r.reviews_last_period} new reviews this month · stars seen ${JSON.stringify(r.star_breakdown)} · top reviewers: ${r.top_reviewers.map(x=>esc(x[0])+" ("+x[1]+")").join(", ")}</small></h3>
+    ${r.complaints.map(c=>`<div class="rv bad"><span class="stars">${c.stars?"★".repeat(c.stars):"?"}</span> <b>${esc(c.title)}</b> <span class="meta">– ${esc(c.author)}</span><div class="desc">${esc(c.snippet)}</div></div>`).join("")}
+    ${r.latest.filter(l=>!r.complaints.some(c=>c.title===l.title)).map(l=>`<div class="rv"><span class="stars">${l.stars?"★".repeat(l.stars):"?"}</span> <b>${esc(l.title)}</b> <span class="meta">– ${esc(l.author)}</span><div class="desc">${esc(l.snippet)}</div></div>`).join("")}
+  </div>`).join("") : `<div class="empty">Reviews appear for watchlisted / tracked plugins after the first run.</div>`;
+}
+
+function show(id) {
+  document.querySelectorAll("section").forEach(s => s.classList.toggle("on", s.id===id));
+  document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b.dataset.id===id));
+  location.hash = id;
+}
+
+async function init() {
+  const nav = document.getElementById("nav");
+  nav.innerHTML = TABS.map(([id,l])=>`<button data-id="${id}">${l}</button>`).join("");
+  nav.querySelectorAll("button").forEach(b => b.onclick = () => show(b.dataset.id));
+  try {
+    DATA = await (await fetch("data/latest.json", {cache:"no-store"})).json();
+  } catch (e) {
+    document.getElementById("meta").textContent = "data/latest.json not found – run `python run.py daily` (or `demo`) first.";
+    return;
+  }
+  document.getElementById("meta").textContent =
+    `snapshot ${DATA.latest_snapshot} · ${fmt(DATA.plugins_tracked)} plugins · ${DATA.snapshots_available} snapshots · baselines: 7d ${DATA.baseline_7d||"—"}, 30d ${DATA.baseline_30d||"—"} · generated ${DATA.generated_at.slice(0,16).replace("T"," ")} UTC`;
+  document.getElementById("opps-list").innerHTML = DATA.opportunities.length ? DATA.opportunities.map(o=>`<li>${esc(o)}</li>`).join("") : "<li class='meta'>Nothing yet – needs a baseline snapshot.</li>";
+  heat(DATA.category_heat);
+  table("new-t", DATA.new_entrants, ["name","days_old","active_installs","downloaded","downloads_per_day_lifetime","num_ratings","rating","support","tags","author"], "active_installs");
+  const grow = ["name","delta_downloaded","delta_downloaded_pct","downloads_per_day","delta_active_installs","active_installs","rating","num_ratings","support","tags"];
+  table("w-fast", DATA.weekly.fast_risers, grow, "delta_downloaded_pct");
+  table("w-boom", DATA.weekly.booming, grow, "delta_downloaded");
+  table("w-rev", DATA.weekly.most_new_reviews, ["name","delta_num_ratings","num_ratings","rating","active_installs","tags"], "delta_num_ratings");
+  table("m-fast", DATA.monthly.fast_risers, grow, "delta_downloaded_pct");
+  table("m-boom", DATA.monthly.booming, grow, "delta_downloaded");
+  table("m-rev", DATA.monthly.most_new_reviews, ["name","delta_num_ratings","num_ratings","rating","active_installs","tags"], "delta_num_ratings");
+  table("top-inst", DATA.most_installed, ["name","active_installs","downloaded","num_ratings","rating","added","tags"], "active_installs");
+  table("top-rev", DATA.most_reviewed_all_time, ["name","num_ratings","rating","active_installs","added","tags"], "num_ratings");
+  velocity(DATA.download_velocity);
+  reviews(DATA.reviews);
+  document.getElementById("q").oninput = e => { filter = e.target.value; document.querySelectorAll("[id]").forEach(el => el._render && el._render()); };
+  show(location.hash.slice(1) || "opps");
+}
+init();
+</script>
+</body>
+</html>
