@@ -21,8 +21,9 @@
   input[type=search] { background:var(--panel); border:1px solid var(--line); color:var(--txt); padding:7px 10px; border-radius:8px; width:260px; font:inherit }
   table { width:100%; border-collapse:separate; border-spacing:0; background:var(--panel); border:1px solid var(--line); border-radius:10px }
   th, td { padding:8px 10px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top }
-  th { color:var(--mut); font-weight:600; cursor:pointer; user-select:none; white-space:nowrap; font-size:12px; text-transform:uppercase; letter-spacing:.03em }
+  th {  position:sticky; top:var(--nav-h,49px); z-index:1; background:var(--panel); box-shadow:0 1px 0 var(--line); color:var(--mut); font-weight:600; cursor:pointer; user-select:none; white-space:nowrap; font-size:12px; text-transform:uppercase; letter-spacing:.03em }
   th.sorted::after { content:" ▾"; color:var(--acc) } th.sorted.asc::after { content:" ▴" }
+  thead th:first-child { border-top-left-radius:10px } thead th:last-child { border-top-right-radius:10px }
   tr:last-child td { border-bottom:0 } td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap }
   a { color:var(--acc); text-decoration:none } a:hover { text-decoration:underline }
   .tag { display:inline-block; background:var(--bg); border:1px solid var(--line); color:var(--mut); border-radius:6px; padding:1px 6px; margin:1px 3px 1px 0; font-size:11px }
@@ -152,6 +153,8 @@ async function init() {
   velocity(DATA.download_velocity);
   reviews(DATA.reviews);
   document.getElementById("q").oninput = e => { filter = e.target.value; document.querySelectorAll("[id]").forEach(el => el._render && el._render()); };
+  const setNavH = () => document.documentElement.style.setProperty("--nav-h", nav.offsetHeight + "px");
+  setNavH(); window.addEventListener("resize", setNavH);
   show(location.hash.slice(1) || "opps");
 }
 init();
