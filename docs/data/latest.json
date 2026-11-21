@@ -9,9 +9,9 @@
     "site-assurance",
     "codingbunny-bulk-edit-for-woocommerce"
    ],
-   "heat": 948.0,
+   "heat": 963.0,
    "installs_of_new": 200,
-   "new_plugins": 316,
+   "new_plugins": 321,
    "rising_plugins": 0,
    "tag": "woocommerce"
   },
@@ -19,12 +19,12 @@
    "delta_downloads": 0,
    "examples": [
     "plume",
-    "seoglut",
+    "arwp-agents",
     "ogeon-connector"
    ],
-   "heat": 243.0,
+   "heat": 237.0,
    "installs_of_new": 10,
-   "new_plugins": 81,
+   "new_plugins": 79,
    "rising_plugins": 0,
    "tag": "ai"
   },
@@ -33,7 +33,7 @@
    "examples": [
     "aliensync-social-preview",
     "publishrank",
-    "seoglut"
+    "raschgroup-seo-suite"
    ],
    "heat": 201.0,
    "installs_of_new": 10,
@@ -46,10 +46,10 @@
    "examples": [
     "hiperlink-security",
     "cloneworx-backup",
-    "hikosachi-protector"
+    "stoutwall"
    ],
    "heat": 147.0,
-   "installs_of_new": 80,
+   "installs_of_new": 60,
    "new_plugins": 49,
    "rising_plugins": 0,
    "tag": "security"
@@ -61,11 +61,24 @@
     "faraiand-sale-assistant",
     "sectivio"
    ],
-   "heat": 105.0,
+   "heat": 111.0,
    "installs_of_new": 10,
-   "new_plugins": 35,
+   "new_plugins": 37,
    "rising_plugins": 0,
    "tag": "analytics"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "plume",
+    "arwp-agents",
+    "represent-ai-chat"
+   ],
+   "heat": 102.0,
+   "installs_of_new": 10,
+   "new_plugins": 34,
+   "rising_plugins": 0,
+   "tag": "chatbot"
   },
   {
    "delta_downloads": 0,
@@ -79,19 +92,6 @@
    "new_plugins": 34,
    "rising_plugins": 0,
    "tag": "customer-support"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "plume",
-    "represent-ai-chat",
-    "b24u-chat-widget"
-   ],
-   "heat": 99.0,
-   "installs_of_new": 10,
-   "new_plugins": 33,
-   "rising_plugins": 0,
-   "tag": "chatbot"
   },
   {
    "delta_downloads": 0,
@@ -113,35 +113,35 @@
     "bugalou-live-chat",
     "b24u-chat-widget"
    ],
-   "heat": 87.0,
+   "heat": 84.0,
    "installs_of_new": 0,
-   "new_plugins": 29,
+   "new_plugins": 28,
    "rising_plugins": 0,
    "tag": "live-chat"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "visigate",
-    "meiwaku-mail-blocker-lite",
-    "sonaar-mp3-audio-player-cloud"
+    "fekbd-addons-for-elementor",
+    "prime-flow-addons-for-elementor",
+    "antops-clickable-containers-for-elementor"
    ],
-   "heat": 84.0,
+   "heat": 75.0,
    "installs_of_new": 0,
-   "new_plugins": 28,
+   "new_plugins": 25,
    "rising_plugins": 0,
    "tag": "elementor"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "meiwaku-mail-blocker-lite",
-    "ais-formguard",
-    "tgp-360"
+    "tgp-360",
+    "gateform",
+    "firnovex-sync-for-activecampaign"
    ],
-   "heat": 81.0,
+   "heat": 75.0,
    "installs_of_new": 0,
-   "new_plugins": 27,
+   "new_plugins": 25,
    "rising_plugins": 0,
    "tag": "contact-form-7"
   },
@@ -163,52 +163,39 @@
    "examples": [
     "joo-faq-advanced",
     "publishrank",
-    "seoglut"
+    "raschgroup-seo-suite"
    ],
-   "heat": 66.0,
+   "heat": 69.0,
    "installs_of_new": 10,
-   "new_plugins": 22,
+   "new_plugins": 23,
    "rising_plugins": 0,
    "tag": "schema"
   },
   {
    "delta_downloads": 0,
    "examples": [
+    "arwp-agents",
+    "ordercourier",
+    "b24u-chat-widget"
+   ],
+   "heat": 60.0,
+   "installs_of_new": 0,
+   "new_plugins": 20,
+   "rising_plugins": 0,
+   "tag": "chat"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "cloneworx-backup",
     "backupino",
-    "pack-vault"
-   ],
-   "heat": 60.0,
-   "installs_of_new": 50,
-   "new_plugins": 20,
-   "rising_plugins": 0,
-   "tag": "migration"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "mjs-captcha-protection",
-    "delonix-security-agent",
-    "meiwaku-mail-blocker-lite"
-   ],
-   "heat": 60.0,
-   "installs_of_new": 0,
-   "new_plugins": 20,
-   "rising_plugins": 0,
-   "tag": "spam"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "devenzi-map-studio",
-    "sectivio",
-    "domopage"
+    "digiter-migration-lite"
    ],
    "heat": 57.0,
-   "installs_of_new": 0,
+   "installs_of_new": 40,
    "new_plugins": 19,
    "rising_plugins": 0,
-   "tag": "gdpr"
+   "tag": "migration"
   },
   {
    "delta_downloads": 0,
@@ -265,28 +252,28 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "b24u-chat-widget",
-    "bublechat",
-    "chattermate-chat"
+    "quotalis-quote-catalog-woocommerce",
+    "quotelane",
+    "lynx-punchout"
    ],
    "heat": 54.0,
    "installs_of_new": 0,
    "new_plugins": 18,
    "rising_plugins": 0,
-   "tag": "chat"
+   "tag": "b2b"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "zorem-ai-agent-connector",
-    "aiwend",
-    "leitvia-studio"
+    "sectivio",
+    "domopage",
+    "360-orbit-nocookie-analytics"
    ],
    "heat": 51.0,
-   "installs_of_new": 50,
+   "installs_of_new": 0,
    "new_plugins": 17,
    "rising_plugins": 0,
-   "tag": "mcp"
+   "tag": "gdpr"
   },
   {
    "delta_downloads": 0,
@@ -304,6 +291,32 @@
   {
    "delta_downloads": 0,
    "examples": [
+    "paymos-stablecoin-checkout-for-woocommerce",
+    "paymos-easy-digital-downloads",
+    "dadsfam-eft-guard"
+   ],
+   "heat": 51.0,
+   "installs_of_new": 0,
+   "new_plugins": 17,
+   "rising_plugins": 0,
+   "tag": "payments"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "mjs-captcha-protection",
+    "delonix-security-agent",
+    "gateform"
+   ],
+   "heat": 51.0,
+   "installs_of_new": 0,
+   "new_plugins": 17,
+   "rising_plugins": 0,
+   "tag": "spam"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "360-orbit-nocookie-analytics",
     "getconsentio-cookie-banner",
     "mix-news-tools"
@@ -317,15 +330,28 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "quotalis-quote-catalog-woocommerce",
-    "quotelane",
-    "lynx-punchout"
+    "zorem-ai-agent-connector",
+    "aiwend",
+    "leitvia-studio"
    ],
-   "heat": 51.0,
-   "installs_of_new": 0,
-   "new_plugins": 17,
+   "heat": 48.0,
+   "installs_of_new": 70,
+   "new_plugins": 16,
    "rising_plugins": 0,
-   "tag": "b2b"
+   "tag": "mcp"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "vergelabs-media-library",
+    "quilio-media-cleaner",
+    "foldrocket"
+   ],
+   "heat": 48.0,
+   "installs_of_new": 40,
+   "new_plugins": 16,
+   "rising_plugins": 0,
+   "tag": "media-library"
   },
   {
    "delta_downloads": 0,
@@ -343,19 +369,6 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "cloneworx-backup",
-    "backupino",
-    "pack-vault"
-   ],
-   "heat": 48.0,
-   "installs_of_new": 50,
-   "new_plugins": 16,
-   "rising_plugins": 0,
-   "tag": "backup"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
     "plume",
     "ogeon-connector",
     "presshelm-ai"
@@ -369,60 +382,34 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "paymos-stablecoin-checkout-for-woocommerce",
-    "paymos-easy-digital-downloads",
-    "auxcore-payment-gateway"
-   ],
-   "heat": 48.0,
-   "installs_of_new": 0,
-   "new_plugins": 16,
-   "rising_plugins": 0,
-   "tag": "payments"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "envo-blocks",
-    "flexify-blocks",
-    "aurofex-builder"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 100,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "blocks"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "vergelabs-media-library",
-    "quilio-media-cleaner",
-    "foldrocket"
+    "cloneworx-backup",
+    "backupino",
+    "digiter-migration-lite"
    ],
    "heat": 45.0,
    "installs_of_new": 40,
    "new_plugins": 15,
    "rising_plugins": 0,
-   "tag": "media-library"
+   "tag": "backup"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "cloneworx-backup",
-    "backupino",
-    "pack-vault"
+    "cybermaps",
+    "aiprofile-inside",
+    "persqo-business-sites"
    ],
    "heat": 45.0,
-   "installs_of_new": 50,
+   "installs_of_new": 20,
    "new_plugins": 15,
    "rising_plugins": 0,
-   "tag": "restore"
+   "tag": "llms-txt"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "devnotes",
     "ravindesk",
+    "devnotes",
     "smrk-toolkit"
    ],
    "heat": 45.0,
@@ -430,19 +417,6 @@
    "new_plugins": 15,
    "rising_plugins": 0,
    "tag": "admin"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "peppolkit",
-    "nfer-emissor-fiscal",
-    "yoolooops-french-e-invoicing-connector-b2brouter"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 0,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "invoice"
   },
   {
    "delta_downloads": 0,
@@ -456,19 +430,6 @@
    "new_plugins": 15,
    "rising_plugins": 0,
    "tag": "lead-generation"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "cujiware-gateway-mercado-pago",
-    "caravel-pay",
-    "auxcore-payment-gateway"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 0,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "payment-gateway"
   },
   {
    "delta_downloads": 0,
@@ -499,21 +460,34 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "cybermaps",
-    "aiprofile-inside",
-    "persqo-business-sites"
+    "envo-blocks",
+    "flexify-blocks",
+    "aurofex-builder"
    ],
    "heat": 42.0,
-   "installs_of_new": 20,
+   "installs_of_new": 100,
    "new_plugins": 14,
    "rising_plugins": 0,
-   "tag": "llms-txt"
+   "tag": "blocks"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "devnotes",
+    "cloneworx-backup",
+    "backupino",
+    "digiter-migration-lite"
+   ],
+   "heat": 42.0,
+   "installs_of_new": 40,
+   "new_plugins": 14,
+   "rising_plugins": 0,
+   "tag": "restore"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "ravindesk",
+    "devnotes",
     "panelkind"
    ],
    "heat": 42.0,
@@ -521,10 +495,36 @@
    "new_plugins": 14,
    "rising_plugins": 0,
    "tag": "dashboard"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "360-orbit-staging-guard",
+    "mxora-email-send-check",
+    "mailpuff"
+   ],
+   "heat": 42.0,
+   "installs_of_new": 0,
+   "new_plugins": 14,
+   "rising_plugins": 0,
+   "tag": "email"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "peppolkit",
+    "nfer-emissor-fiscal",
+    "yoolooops-french-e-invoicing-connector-b2brouter"
+   ],
+   "heat": 42.0,
+   "installs_of_new": 0,
+   "new_plugins": 14,
+   "rising_plugins": 0,
+   "tag": "invoice"
   }
  ],
  "download_velocity": [],
- "generated_at": "2026-11-21T06:09:03.212794+00:00",
+ "generated_at": "2026-11-21T09:58:55.660609+00:00",
  "latest_snapshot": "2026-11-21",
  "monthly": {
   "booming": [],
@@ -1755,6 +1755,30 @@
    "url": "https://wordpress.org/plugins/envo-blocks/"
   },
   {
+   "active_installs": 100,
+   "added": "2026-11-09",
+   "author": "babilim",
+   "days_old": 12,
+   "downloaded": 1181,
+   "downloads_per_day_lifetime": 98.4,
+   "last_updated": "2026-11-21",
+   "name": "Babilim – Auto-Translate Plugins & Themes",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Fills in missing translations for the plugins and themes already installed on your site.",
+   "slug": "babilim",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "automatic-translation",
+    "i18n",
+    "language-pack",
+    "localization",
+    "translation"
+   ],
+   "url": "https://wordpress.org/plugins/babilim/"
+  },
+  {
    "active_installs": 80,
    "added": "2026-10-23",
    "author": "teoleonard",
@@ -1803,43 +1827,19 @@
    "url": "https://wordpress.org/plugins/pinpoint-booking-system/"
   },
   {
-   "active_installs": 50,
-   "added": "2026-11-05",
-   "author": "SoftIcon",
-   "days_old": 16,
-   "downloaded": 1177,
-   "downloads_per_day_lifetime": 73.6,
-   "last_updated": "2026-11-20",
-   "name": "SoftIcon Poll – Poll & Survey Block",
-   "num_ratings": 1,
-   "rating": 100,
-   "short_description": "A poll block for the block editor. Votes are saved on your own site, with no account or outside service, and work on cached pages.",
-   "slug": "softicon-poll",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "block",
-    "poll",
-    "poll-block",
-    "survey",
-    "voting"
-   ],
-   "url": "https://wordpress.org/plugins/softicon-poll/"
-  },
-  {
-   "active_installs": 50,
+   "active_installs": 70,
    "added": "2026-11-16",
    "author": "Zorem",
    "days_old": 5,
-   "downloaded": 297,
-   "downloads_per_day_lifetime": 59.4,
+   "downloaded": 428,
+   "downloads_per_day_lifetime": 85.6,
    "last_updated": "2026-11-20",
    "name": "Zorem AI Agent Connector",
    "num_ratings": 0,
    "rating": 0,
    "short_description": "Connect Claude, ChatGPT and other AI apps to WordPress safely, through an AI agent with its own identity and safety switches.",
    "slug": "zorem-ai-agent-connector",
-   "support_threads": 0,
+   "support_threads": 1,
    "support_threads_resolved": 0,
    "tags": [
     "ai-agent",
@@ -2020,30 +2020,6 @@
   },
   {
    "active_installs": 20,
-   "added": "2026-11-12",
-   "author": "TAKAHIRO",
-   "days_old": 9,
-   "downloaded": 195,
-   "downloads_per_day_lifetime": 21.7,
-   "last_updated": "2026-11-20",
-   "name": "Hikosachi Protector",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Blocks malicious IP addresses with Hikosachi, a shared threat intelligence network built from attacks detected on participating WordPress sites.",
-   "slug": "hikosachi-protector",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "brute-force",
-    "firewall",
-    "ip-blocking",
-    "security",
-    "threat-intelligence"
-   ],
-   "url": "https://wordpress.org/plugins/hikosachi-protector/"
-  },
-  {
-   "active_installs": 20,
    "added": "2026-11-15",
    "author": "Gorilla DevOps",
    "days_old": 6,
@@ -2067,12 +2043,35 @@
    "url": "https://wordpress.org/plugins/gorilla-cache/"
   },
   {
+   "active_installs": 20,
+   "added": "2026-11-19",
+   "author": "zeronslab",
+   "days_old": 2,
+   "downloaded": 103,
+   "downloads_per_day_lifetime": 51.5,
+   "last_updated": "2026-11-19",
+   "name": "Draftling – Duplicate Posts & Pages as Drafts",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Copy posts, pages, and supported custom post types into new drafts with one Duplicate action.",
+   "slug": "draftling",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "clone",
+    "custom-post-type",
+    "duplicate-page",
+    "duplicate-post"
+   ],
+   "url": "https://wordpress.org/plugins/draftling/"
+  },
+  {
    "active_installs": 10,
    "added": "2026-10-28",
    "author": "celestinetan",
    "days_old": 24,
-   "downloaded": 2057,
-   "downloads_per_day_lifetime": 85.7,
+   "downloaded": 2094,
+   "downloads_per_day_lifetime": 87.2,
    "last_updated": "2026-11-21",
    "name": "Stubli",
    "num_ratings": 0,
@@ -2236,30 +2235,6 @@
   },
   {
    "active_installs": 10,
-   "added": "2026-11-13",
-   "author": "khalidbin",
-   "days_old": 8,
-   "downloaded": 194,
-   "downloads_per_day_lifetime": 24.2,
-   "last_updated": "2026-11-13",
-   "name": "Packvault – Backup, Restore & Migration",
-   "num_ratings": 1,
-   "rating": 100,
-   "short_description": "Back up your whole WordPress site into one portable .packvault file. Download, upload and restore backups of any size, and migrate to any host.",
-   "slug": "pack-vault",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "backup",
-    "clone",
-    "duplicate",
-    "migration",
-    "restore"
-   ],
-   "url": "https://wordpress.org/plugins/pack-vault/"
-  },
-  {
-   "active_installs": 10,
    "added": "2026-11-16",
    "author": "i9 Publicidade",
    "days_old": 5,
@@ -2305,6 +2280,30 @@
     "static-site-generator"
    ],
    "url": "https://wordpress.org/plugins/staticpush/"
+  },
+  {
+   "active_installs": 10,
+   "added": "2026-11-19",
+   "author": "Sasanseyfi",
+   "days_old": 2,
+   "downloaded": 118,
+   "downloads_per_day_lifetime": 59.0,
+   "last_updated": "2026-11-21",
+   "name": "RavinDesk",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Admin styling, global search, notification bell, WooCommerce management cards and an optional local statistics dashboard.",
+   "slug": "ravindesk",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "accessibility",
+    "admin",
+    "customization",
+    "dashboard",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/ravindesk/"
   },
   {
    "active_installs": 10,
@@ -2379,30 +2378,6 @@
    "url": "https://wordpress.org/plugins/devnotes/"
   },
   {
-   "active_installs": 10,
-   "added": "2026-11-19",
-   "author": "Sasanseyfi",
-   "days_old": 2,
-   "downloaded": 84,
-   "downloads_per_day_lifetime": 42.0,
-   "last_updated": "2026-11-21",
-   "name": "RavinDesk",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Admin styling, global search, notification bell, WooCommerce management cards and an optional local statistics dashboard.",
-   "slug": "ravindesk",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "accessibility",
-    "admin",
-    "customization",
-    "dashboard",
-    "woocommerce"
-   ],
-   "url": "https://wordpress.org/plugins/ravindesk/"
-  },
-  {
    "active_installs": 0,
    "added": "2026-10-26",
    "author": "EqualFix",
@@ -2431,8 +2406,8 @@
    "added": "2026-11-05",
    "author": "giftlight",
    "days_old": 16,
-   "downloaded": 1328,
-   "downloads_per_day_lifetime": 83.0,
+   "downloaded": 1358,
+   "downloads_per_day_lifetime": 84.9,
    "last_updated": "2026-11-21",
    "name": "Giftlight – Gift Guide & Gift Finder for WooCommerce",
    "num_ratings": 0,
@@ -2452,35 +2427,11 @@
   },
   {
    "active_installs": 0,
-   "added": "2026-11-02",
-   "author": "jaypeeperos",
-   "days_old": 19,
-   "downloaded": 1327,
-   "downloads_per_day_lifetime": 69.8,
-   "last_updated": "2026-11-20",
-   "name": "Visigate – Conditional Content & Visibility Rules",
-   "num_ratings": 1,
-   "rating": 100,
-   "short_description": "Show or hide any block, Elementor element or menu item by user, role, login status, device, page type, or time. No front-end JavaScript.",
-   "slug": "visigate",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "block-editor",
-    "conditional-content",
-    "elementor",
-    "personalization",
-    "visibility"
-   ],
-   "url": "https://wordpress.org/plugins/visigate/"
-  },
-  {
-   "active_installs": 0,
    "added": "2026-11-05",
    "author": "umarjaum",
    "days_old": 16,
-   "downloaded": 1105,
-   "downloads_per_day_lifetime": 69.1,
+   "downloaded": 1116,
+   "downloads_per_day_lifetime": 69.8,
    "last_updated": "2026-11-21",
    "name": "PublishRank",
    "num_ratings": 1,
@@ -2548,51 +2499,27 @@
   },
   {
    "active_installs": 0,
-   "added": "2026-10-25",
-   "author": "Stablevoy",
-   "days_old": 27,
-   "downloaded": 946,
-   "downloads_per_day_lifetime": 35.0,
-   "last_updated": "2026-11-20",
-   "name": "Stablevoy: USDT and USDC Crypto Payments for WooCommerce",
+   "added": "2026-11-02",
+   "author": "Oxford Metadata Ltd",
+   "days_old": 19,
+   "downloaded": 991,
+   "downloads_per_day_lifetime": 52.2,
+   "last_updated": "2026-11-21",
+   "name": "Rooster LMS",
    "num_ratings": 0,
    "rating": 0,
-   "short_description": "Accept USDT (TRC20 on Tron, with no fee) and USDC crypto payments in WooCommerce, paid straight to your own wallet. Non-custodial.",
-   "slug": "stablevoy-for-woocommerce",
+   "short_description": "The free LMS for training many organisations from one site: games, 30+ question types, timed exams, live lessons, certificates and reports.",
+   "slug": "rooster-lms",
    "support_threads": 0,
    "support_threads_resolved": 0,
    "tags": [
-    "crypto-payments",
-    "stablecoin",
-    "trc20",
-    "usdc",
-    "usdt"
+    "courses",
+    "elearning",
+    "lms",
+    "quiz",
+    "training"
    ],
-   "url": "https://wordpress.org/plugins/stablevoy-for-woocommerce/"
-  },
-  {
-   "active_installs": 0,
-   "added": "2026-11-04",
-   "author": "devenzi",
-   "days_old": 17,
-   "downloaded": 855,
-   "downloads_per_day_lifetime": 50.3,
-   "last_updated": "2026-11-20",
-   "name": "Devenzi Map Studio – OpenStreetMap, 3D Maps, Store Locator & Routes",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "GDPR-friendly OpenStreetMap maps with a full-screen editor: store locator, routes, 3D buildings. No Google or API key, optionally no cookie banner.",
-   "slug": "devenzi-map-studio",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "gdpr",
-    "interactive-map",
-    "maps",
-    "openstreetmap",
-    "store-locator"
-   ],
-   "url": "https://wordpress.org/plugins/devenzi-map-studio/"
+   "url": "https://wordpress.org/plugins/rooster-lms/"
   },
   {
    "active_installs": 0,
@@ -2689,30 +2616,6 @@
     "webp-converter"
    ],
    "url": "https://wordpress.org/plugins/captain-media-shield/"
-  },
-  {
-   "active_installs": 0,
-   "added": "2026-11-03",
-   "author": "Stablevoy",
-   "days_old": 18,
-   "downloaded": 766,
-   "downloads_per_day_lifetime": 42.6,
-   "last_updated": "2026-11-20",
-   "name": "Stablevoy: USDT and USDC Crypto Payments for Easy Digital Downloads",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Sell digital downloads for USDT (TRC20 on Tron, no fee) and USDC, paid straight to your own wallet. Non-custodial crypto payments for EDD.",
-   "slug": "stablevoy-for-easy-digital-downloads",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "crypto-payments",
-    "easy-digital-downloads",
-    "stablecoin",
-    "usdc",
-    "usdt"
-   ],
-   "url": "https://wordpress.org/plugins/stablevoy-for-easy-digital-downloads/"
   },
   {
    "active_installs": 0,
@@ -3004,6 +2907,54 @@
   },
   {
    "active_installs": 0,
+   "added": "2026-10-31",
+   "author": "Gexiro",
+   "days_old": 21,
+   "downloaded": 586,
+   "downloads_per_day_lifetime": 27.9,
+   "last_updated": "2026-11-21",
+   "name": "Gexiro Content Protection",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Stop casual copy-paste & image theft, keep WooCommerce checkout open, and audit WordPress REST API & AI crawler scraping exposure.",
+   "slug": "gexiro-content-protection",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "ai-crawlers",
+    "anti-scraping",
+    "copy-protection",
+    "rest-api",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/gexiro-content-protection/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-11-01",
+   "author": "SoftIcon",
+   "days_old": 20,
+   "downloaded": 569,
+   "downloads_per_day_lifetime": 28.4,
+   "last_updated": "2026-11-20",
+   "name": "SoftIcon Mega Menu",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Add mega menus to the Navigation block in block themes. Design each dropdown panel in the Site Editor with any blocks.",
+   "slug": "softicon-mega-menu",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "block",
+    "block-theme",
+    "mega-menu",
+    "menu",
+    "navigation"
+   ],
+   "url": "https://wordpress.org/plugins/softicon-mega-menu/"
+  },
+  {
+   "active_installs": 0,
    "added": "2026-10-23",
    "author": "Frank J",
    "days_old": 29,
@@ -3028,27 +2979,27 @@
   },
   {
    "active_installs": 0,
-   "added": "2026-11-02",
-   "author": "AppGlut",
-   "days_old": 19,
-   "downloaded": 535,
-   "downloads_per_day_lifetime": 28.2,
-   "last_updated": "2026-11-20",
-   "name": "SEOGlut – SEO for Site Ranking, Indexing, AI SEO, and Content Generation",
+   "added": "2026-10-28",
+   "author": "Paymos",
+   "days_old": 24,
+   "downloaded": 524,
+   "downloads_per_day_lifetime": 21.8,
+   "last_updated": "2026-11-21",
+   "name": "Paymos Stablecoin Checkout for WooCommerce",
    "num_ratings": 0,
    "rating": 0,
-   "short_description": "On-page SEO, schema, llms.txt, redirects and audits, plus an AI writer for complete articles with images.",
-   "slug": "seoglut",
+   "short_description": "Accept stablecoin payments with Paymos hosted checkout and signed webhooks.",
+   "slug": "paymos-stablecoin-checkout-for-woocommerce",
    "support_threads": 0,
    "support_threads_resolved": 0,
    "tags": [
-    "ai",
-    "content-generator",
-    "redirects",
-    "schema",
-    "seo"
+    "payments",
+    "stablecoin",
+    "usdc",
+    "usdt",
+    "woocommerce"
    ],
-   "url": "https://wordpress.org/plugins/seoglut/"
+   "url": "https://wordpress.org/plugins/paymos-stablecoin-checkout-for-woocommerce/"
   },
   {
    "active_installs": 0,
@@ -3100,6 +3051,30 @@
   },
   {
    "active_installs": 0,
+   "added": "2026-11-08",
+   "author": "Clickflame Rank Any Site",
+   "days_old": 13,
+   "downloaded": 503,
+   "downloads_per_day_lifetime": 38.7,
+   "last_updated": "2026-11-21",
+   "name": "Clickflame Rank Any Site",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Find and track your business listings on directories, check each one's name, phone and place, and see what your live pages serve.",
+   "slug": "clickflame-rank-any-site",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "ai-search",
+    "business-listings",
+    "citations",
+    "local-seo",
+    "nap"
+   ],
+   "url": "https://wordpress.org/plugins/clickflame-rank-any-site/"
+  },
+  {
+   "active_installs": 0,
    "added": "2026-11-01",
    "author": "Auvrenth Studio",
    "days_old": 20,
@@ -3124,55 +3099,79 @@
   },
   {
    "active_installs": 0,
-   "added": "2026-10-28",
+   "added": "2026-11-06",
    "author": "Paymos",
-   "days_old": 24,
-   "downloaded": 483,
-   "downloads_per_day_lifetime": 20.1,
+   "days_old": 15,
+   "downloaded": 467,
+   "downloads_per_day_lifetime": 31.1,
    "last_updated": "2026-11-21",
-   "name": "Paymos Stablecoin Checkout for WooCommerce",
+   "name": "Paymos for Easy Digital Downloads",
    "num_ratings": 0,
    "rating": 0,
-   "short_description": "Accept stablecoin payments with Paymos hosted checkout and signed webhooks.",
-   "slug": "paymos-stablecoin-checkout-for-woocommerce",
+   "short_description": "Accept stablecoin payments in Easy Digital Downloads with Paymos hosted checkout.",
+   "slug": "paymos-easy-digital-downloads",
    "support_threads": 0,
    "support_threads_resolved": 0,
    "tags": [
+    "easy-digital-downloads",
     "payments",
     "stablecoin",
     "usdc",
-    "usdt",
-    "woocommerce"
+    "usdt"
    ],
-   "url": "https://wordpress.org/plugins/paymos-stablecoin-checkout-for-woocommerce/"
+   "url": "https://wordpress.org/plugins/paymos-easy-digital-downloads/"
   },
   {
    "active_installs": 0,
-   "added": "2026-11-08",
-   "author": "Clickflame Rank Any Site",
-   "days_old": 13,
-   "downloaded": 476,
-   "downloads_per_day_lifetime": 36.6,
-   "last_updated": "2026-11-21",
-   "name": "Clickflame Rank Any Site",
+   "added": "2026-11-06",
+   "author": "Nicolás Alejandro Salinas",
+   "days_old": 15,
+   "downloaded": 460,
+   "downloads_per_day_lifetime": 30.7,
+   "last_updated": "2026-11-20",
+   "name": "OrderArc – Order Archive for WooCommerce",
    "num_ratings": 0,
    "rating": 0,
-   "short_description": "Find and track your business listings on directories, check each one's name, phone and place, and see what your live pages serve.",
-   "slug": "clickflame-rank-any-site",
+   "short_description": "Archive old WooCommerce orders to fix a slow orders page and order search. Verified and reversible; reports and customer history stay intact.",
+   "slug": "orderarc",
    "support_threads": 0,
    "support_threads_resolved": 0,
    "tags": [
-    "ai-search",
-    "business-listings",
-    "citations",
-    "local-seo",
-    "nap"
+    "archive",
+    "hpos",
+    "orders",
+    "performance",
+    "woocommerce"
    ],
-   "url": "https://wordpress.org/plugins/clickflame-rank-any-site/"
+   "url": "https://wordpress.org/plugins/orderarc/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-10-31",
+   "author": "digiterorg",
+   "days_old": 21,
+   "downloaded": 457,
+   "downloads_per_day_lifetime": 21.8,
+   "last_updated": "2026-11-20",
+   "name": "Digiter Migration Lite",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Portable database and wp-content ZIP backups for manual WordPress migration, with private temporary storage and a guided restore checklist.",
+   "slug": "digiter-migration-lite",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "backup",
+    "database",
+    "export",
+    "migration",
+    "restore"
+   ],
+   "url": "https://wordpress.org/plugins/digiter-migration-lite/"
   }
  ],
  "opportunities": [],
- "plugins_tracked": 2758,
+ "plugins_tracked": 2773,
  "reviews": [
   {
    "complaints": [],
