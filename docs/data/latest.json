@@ -10,7 +10,7 @@
     "codingbunny-bulk-edit-for-woocommerce"
    ],
    "heat": 948.0,
-   "installs_of_new": 190,
+   "installs_of_new": 200,
    "new_plugins": 316,
    "rising_plugins": 0,
    "tag": "woocommerce"
@@ -22,22 +22,22 @@
     "seoglut",
     "ogeon-connector"
    ],
-   "heat": 249.0,
+   "heat": 243.0,
    "installs_of_new": 10,
-   "new_plugins": 83,
+   "new_plugins": 81,
    "rising_plugins": 0,
    "tag": "ai"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "saddle-rank",
     "aliensync-social-preview",
-    "publishrank"
+    "publishrank",
+    "seoglut"
    ],
-   "heat": 207.0,
-   "installs_of_new": 20,
-   "new_plugins": 69,
+   "heat": 201.0,
+   "installs_of_new": 10,
+   "new_plugins": 67,
    "rising_plugins": 0,
    "tag": "seo"
   },
@@ -48,9 +48,9 @@
     "cloneworx-backup",
     "hikosachi-protector"
    ],
-   "heat": 150.0,
+   "heat": 147.0,
    "installs_of_new": 80,
-   "new_plugins": 50,
+   "new_plugins": 49,
    "rising_plugins": 0,
    "tag": "security"
   },
@@ -62,7 +62,7 @@
     "sectivio"
    ],
    "heat": 105.0,
-   "installs_of_new": 20,
+   "installs_of_new": 10,
    "new_plugins": 35,
    "rising_plugins": 0,
    "tag": "analytics"
@@ -70,13 +70,13 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "salyut-agents",
-    "stand-chat",
-    "represent-ai-chat"
+    "represent-ai-chat",
+    "b24u-chat-widget",
+    "needtome-ai-chat"
    ],
-   "heat": 105.0,
+   "heat": 102.0,
    "installs_of_new": 0,
-   "new_plugins": 35,
+   "new_plugins": 34,
    "rising_plugins": 0,
    "tag": "customer-support"
   },
@@ -84,27 +84,14 @@
    "delta_downloads": 0,
    "examples": [
     "plume",
-    "stand-chat",
-    "nvquyet2224-ai-chatbot-for-woocommerce"
+    "represent-ai-chat",
+    "b24u-chat-widget"
    ],
-   "heat": 102.0,
+   "heat": 99.0,
    "installs_of_new": 10,
-   "new_plugins": 34,
+   "new_plugins": 33,
    "rising_plugins": 0,
    "tag": "chatbot"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "bugalou-for-woocommerce",
-    "bugalou-live-chat",
-    "salyut-agents"
-   ],
-   "heat": 93.0,
-   "installs_of_new": 0,
-   "new_plugins": 31,
-   "rising_plugins": 0,
-   "tag": "live-chat"
   },
   {
    "delta_downloads": 0,
@@ -122,13 +109,26 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "visigate",
-    "click-n-jump",
-    "meiwaku-mail-blocker-lite"
+    "bugalou-for-woocommerce",
+    "bugalou-live-chat",
+    "b24u-chat-widget"
    ],
    "heat": 87.0,
    "installs_of_new": 0,
    "new_plugins": 29,
+   "rising_plugins": 0,
+   "tag": "live-chat"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "visigate",
+    "meiwaku-mail-blocker-lite",
+    "sonaar-mp3-audio-player-cloud"
+   ],
+   "heat": 84.0,
+   "installs_of_new": 0,
+   "new_plugins": 28,
    "rising_plugins": 0,
    "tag": "elementor"
   },
@@ -139,37 +139,50 @@
     "ais-formguard",
     "tgp-360"
    ],
-   "heat": 78.0,
+   "heat": 81.0,
    "installs_of_new": 0,
-   "new_plugins": 26,
+   "new_plugins": 27,
    "rising_plugins": 0,
    "tag": "contact-form-7"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "saddle-rank",
-    "joo-faq-advanced",
-    "publishrank"
+    "vergelabs-media-library",
+    "ravindesk",
+    "equalfix"
    ],
    "heat": 69.0,
-   "installs_of_new": 20,
+   "installs_of_new": 50,
    "new_plugins": 23,
+   "rising_plugins": 0,
+   "tag": "accessibility"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "joo-faq-advanced",
+    "publishrank",
+    "seoglut"
+   ],
+   "heat": 66.0,
+   "installs_of_new": 10,
+   "new_plugins": 22,
    "rising_plugins": 0,
    "tag": "schema"
   },
   {
    "delta_downloads": 0,
    "examples": [
-    "vergelabs-media-library",
-    "equalfix",
-    "fixlight"
+    "cloneworx-backup",
+    "backupino",
+    "pack-vault"
    ],
-   "heat": 66.0,
-   "installs_of_new": 40,
-   "new_plugins": 22,
+   "heat": 60.0,
+   "installs_of_new": 50,
+   "new_plugins": 20,
    "rising_plugins": 0,
-   "tag": "accessibility"
+   "tag": "migration"
   },
   {
    "delta_downloads": 0,
@@ -178,9 +191,9 @@
     "delonix-security-agent",
     "meiwaku-mail-blocker-lite"
    ],
-   "heat": 63.0,
+   "heat": 60.0,
    "installs_of_new": 0,
-   "new_plugins": 21,
+   "new_plugins": 20,
    "rising_plugins": 0,
    "tag": "spam"
   },
@@ -191,37 +204,11 @@
     "sectivio",
     "domopage"
    ],
-   "heat": 60.0,
-   "installs_of_new": 0,
-   "new_plugins": 20,
-   "rising_plugins": 0,
-   "tag": "gdpr"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "bugalou-for-woocommerce",
-    "aiwend",
-    "bugalou-live-chat"
-   ],
-   "heat": 60.0,
-   "installs_of_new": 0,
-   "new_plugins": 20,
-   "rising_plugins": 0,
-   "tag": "ai-chatbot"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "cloneworx-backup",
-    "backupino",
-    "pack-vault"
-   ],
    "heat": 57.0,
-   "installs_of_new": 50,
+   "installs_of_new": 0,
    "new_plugins": 19,
    "rising_plugins": 0,
-   "tag": "migration"
+   "tag": "gdpr"
   },
   {
    "delta_downloads": 0,
@@ -239,21 +226,8 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "360-orbit-nocookie-analytics",
-    "getconsentio-cookie-banner",
-    "odrop-support"
-   ],
-   "heat": 57.0,
-   "installs_of_new": 0,
-   "new_plugins": 19,
-   "rising_plugins": 0,
-   "tag": "privacy"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "streetfill",
     "sadiksajid-cod-order-forms",
+    "streetfill",
     "extnify-checkout"
    ],
    "heat": 57.0,
@@ -278,6 +252,32 @@
   {
    "delta_downloads": 0,
    "examples": [
+    "bugalou-for-woocommerce",
+    "aiwend",
+    "bugalou-live-chat"
+   ],
+   "heat": 54.0,
+   "installs_of_new": 0,
+   "new_plugins": 18,
+   "rising_plugins": 0,
+   "tag": "ai-chatbot"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "b24u-chat-widget",
+    "bublechat",
+    "chattermate-chat"
+   ],
+   "heat": 54.0,
+   "installs_of_new": 0,
+   "new_plugins": 18,
+   "rising_plugins": 0,
+   "tag": "chat"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "zorem-ai-agent-connector",
     "aiwend",
     "leitvia-studio"
@@ -287,19 +287,6 @@
    "new_plugins": 17,
    "rising_plugins": 0,
    "tag": "mcp"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "plume",
-    "ogeon-connector",
-    "ai4ranks-seo"
-   ],
-   "heat": 51.0,
-   "installs_of_new": 10,
-   "new_plugins": 17,
-   "rising_plugins": 0,
-   "tag": "content"
   },
   {
    "delta_downloads": 0,
@@ -317,15 +304,15 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "widgetcalc",
-    "hayyat-apps-mortgage-calculator",
-    "salyut-agents"
+    "360-orbit-nocookie-analytics",
+    "getconsentio-cookie-banner",
+    "mix-news-tools"
    ],
    "heat": 51.0,
    "installs_of_new": 0,
    "new_plugins": 17,
    "rising_plugins": 0,
-   "tag": "lead-generation"
+   "tag": "privacy"
   },
   {
    "delta_downloads": 0,
@@ -343,6 +330,19 @@
   {
    "delta_downloads": 0,
    "examples": [
+    "site-assurance",
+    "mxora-email-send-check",
+    "pirkoo"
+   ],
+   "heat": 48.0,
+   "installs_of_new": 30,
+   "new_plugins": 16,
+   "rising_plugins": 0,
+   "tag": "monitoring"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "cloneworx-backup",
     "backupino",
     "pack-vault"
@@ -356,6 +356,19 @@
   {
    "delta_downloads": 0,
    "examples": [
+    "plume",
+    "ogeon-connector",
+    "presshelm-ai"
+   ],
+   "heat": 48.0,
+   "installs_of_new": 10,
+   "new_plugins": 16,
+   "rising_plugins": 0,
+   "tag": "content"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
     "paymos-stablecoin-checkout-for-woocommerce",
     "paymos-easy-digital-downloads",
     "auxcore-payment-gateway"
@@ -365,19 +378,6 @@
    "new_plugins": 16,
    "rising_plugins": 0,
    "tag": "payments"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "bublechat",
-    "b24u-chat-widget",
-    "chattermate-chat"
-   ],
-   "heat": 48.0,
-   "installs_of_new": 0,
-   "new_plugins": 16,
-   "rising_plugins": 0,
-   "tag": "chat"
   },
   {
    "delta_downloads": 0,
@@ -408,19 +408,6 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "site-assurance",
-    "mxora-email-send-check",
-    "pirkoo"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 30,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "monitoring"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
     "cloneworx-backup",
     "backupino",
     "pack-vault"
@@ -434,41 +421,15 @@
   {
    "delta_downloads": 0,
    "examples": [
-    "cybermaps",
-    "saddle-rank",
-    "aiprofile-inside"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 30,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "llms-txt"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
     "devnotes",
-    "click-n-jump",
-    "smart-sales-dashboard"
+    "ravindesk",
+    "smrk-toolkit"
    ],
    "heat": 45.0,
-   "installs_of_new": 10,
+   "installs_of_new": 20,
    "new_plugins": 15,
    "rising_plugins": 0,
-   "tag": "dashboard"
-  },
-  {
-   "delta_downloads": 0,
-   "examples": [
-    "360-orbit-staging-guard",
-    "lynbro-smtp-mailer",
-    "mxora-email-send-check"
-   ],
-   "heat": 45.0,
-   "installs_of_new": 0,
-   "new_plugins": 15,
-   "rising_plugins": 0,
-   "tag": "email"
+   "tag": "admin"
   },
   {
    "delta_downloads": 0,
@@ -482,6 +443,19 @@
    "new_plugins": 15,
    "rising_plugins": 0,
    "tag": "invoice"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "widgetcalc",
+    "hayyat-apps-mortgage-calculator",
+    "beeschat"
+   ],
+   "heat": 45.0,
+   "installs_of_new": 0,
+   "new_plugins": 15,
+   "rising_plugins": 0,
+   "tag": "lead-generation"
   },
   {
    "delta_downloads": 0,
@@ -521,10 +495,36 @@
    "new_plugins": 15,
    "rising_plugins": 0,
    "tag": "shortcode"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "cybermaps",
+    "aiprofile-inside",
+    "persqo-business-sites"
+   ],
+   "heat": 42.0,
+   "installs_of_new": 20,
+   "new_plugins": 14,
+   "rising_plugins": 0,
+   "tag": "llms-txt"
+  },
+  {
+   "delta_downloads": 0,
+   "examples": [
+    "devnotes",
+    "ravindesk",
+    "panelkind"
+   ],
+   "heat": 42.0,
+   "installs_of_new": 20,
+   "new_plugins": 14,
+   "rising_plugins": 0,
+   "tag": "dashboard"
   }
  ],
  "download_velocity": [],
- "generated_at": "2026-11-21T02:07:34.325600+00:00",
+ "generated_at": "2026-11-21T06:09:03.212794+00:00",
  "latest_snapshot": "2026-11-21",
  "monthly": {
   "booming": [],
@@ -1637,8 +1637,8 @@
    "added": "2014-07-23",
    "author": "Syed Balkhi",
    "days_old": 4504,
-   "downloaded": 55722566,
-   "downloads_per_day_lifetime": 12371.8,
+   "downloaded": 56016791,
+   "downloads_per_day_lifetime": 12437.1,
    "last_updated": "2026-11-19",
    "name": "Smash Balloon Social Photo Feed – Easy Social Feeds Plugin",
    "num_ratings": 4359,
@@ -1755,30 +1755,6 @@
    "url": "https://wordpress.org/plugins/envo-blocks/"
   },
   {
-   "active_installs": 100,
-   "added": "2026-11-09",
-   "author": "babilim",
-   "days_old": 12,
-   "downloaded": 1146,
-   "downloads_per_day_lifetime": 95.5,
-   "last_updated": "2026-11-20",
-   "name": "Babilim – Auto-Translate Plugins & Themes",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Fills in missing translations for the plugins and themes already installed on your site.",
-   "slug": "babilim",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "automatic-translation",
-    "i18n",
-    "language-pack",
-    "localization",
-    "translation"
-   ],
-   "url": "https://wordpress.org/plugins/babilim/"
-  },
-  {
    "active_installs": 80,
    "added": "2026-10-23",
    "author": "teoleonard",
@@ -1825,6 +1801,30 @@
     "reservation-management"
    ],
    "url": "https://wordpress.org/plugins/pinpoint-booking-system/"
+  },
+  {
+   "active_installs": 50,
+   "added": "2026-11-05",
+   "author": "SoftIcon",
+   "days_old": 16,
+   "downloaded": 1177,
+   "downloads_per_day_lifetime": 73.6,
+   "last_updated": "2026-11-20",
+   "name": "SoftIcon Poll – Poll & Survey Block",
+   "num_ratings": 1,
+   "rating": 100,
+   "short_description": "A poll block for the block editor. Votes are saved on your own site, with no account or outside service, and work on cached pages.",
+   "slug": "softicon-poll",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "block",
+    "poll",
+    "poll-block",
+    "survey",
+    "voting"
+   ],
+   "url": "https://wordpress.org/plugins/softicon-poll/"
   },
   {
    "active_installs": 50,
@@ -1879,8 +1879,8 @@
    "added": "2026-10-25",
    "author": "WPAssist",
    "days_old": 27,
-   "downloaded": 1547,
-   "downloads_per_day_lifetime": 57.3,
+   "downloaded": 1605,
+   "downloads_per_day_lifetime": 59.4,
    "last_updated": "2026-11-20",
    "name": "SiteAssure – Website, Form & Checkout Monitoring",
    "num_ratings": 0,
@@ -1897,30 +1897,6 @@
     "woocommerce"
    ],
    "url": "https://wordpress.org/plugins/site-assurance/"
-  },
-  {
-   "active_installs": 30,
-   "added": "2026-11-05",
-   "author": "SoftIcon",
-   "days_old": 16,
-   "downloaded": 983,
-   "downloads_per_day_lifetime": 61.4,
-   "last_updated": "2026-11-20",
-   "name": "SoftIcon Poll – Poll & Survey Block",
-   "num_ratings": 1,
-   "rating": 100,
-   "short_description": "A poll block for the block editor. Votes are saved on your own site, with no account or outside service, and work on cached pages.",
-   "slug": "softicon-poll",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "block",
-    "poll",
-    "poll-block",
-    "survey",
-    "voting"
-   ],
-   "url": "https://wordpress.org/plugins/softicon-poll/"
   },
   {
    "active_installs": 30,
@@ -2068,30 +2044,6 @@
   },
   {
    "active_installs": 20,
-   "added": "2026-11-16",
-   "author": "i9 Publicidade",
-   "days_old": 5,
-   "downloaded": 147,
-   "downloads_per_day_lifetime": 29.4,
-   "last_updated": "2026-11-19",
-   "name": "i9 Monitoramento de Cliques",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Smart click tracking and interaction monitoring for buttons, links, and forms with built-in PDF reports, CSV export, and analytics dashboard.",
-   "slug": "i9-monitoramento-de-cliques",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "analytics",
-    "button-clicks",
-    "click-tracking",
-    "conversion",
-    "tracking"
-   ],
-   "url": "https://wordpress.org/plugins/i9-monitoramento-de-cliques/"
-  },
-  {
-   "active_installs": 20,
    "added": "2026-11-15",
    "author": "Gorilla DevOps",
    "days_old": 6,
@@ -2236,39 +2188,15 @@
   },
   {
    "active_installs": 10,
-   "added": "2026-11-09",
-   "author": "Fahim Reza",
-   "days_old": 12,
-   "downloaded": 284,
-   "downloads_per_day_lifetime": 23.7,
-   "last_updated": "2026-11-20",
-   "name": "SaddleWP Rank",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "SEO and AI search visibility: meta tags, XML sitemap, schema, redirects and llms.txt, with fixes your AI agent can preview and apply.",
-   "slug": "saddle-rank",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "ai-seo",
-    "llms-txt",
-    "schema",
-    "seo",
-    "xml-sitemap"
-   ],
-   "url": "https://wordpress.org/plugins/saddle-rank/"
-  },
-  {
-   "active_installs": 10,
    "added": "2026-11-13",
    "author": "Backupino",
    "days_old": 8,
-   "downloaded": 222,
-   "downloads_per_day_lifetime": 27.8,
+   "downloaded": 246,
+   "downloads_per_day_lifetime": 30.8,
    "last_updated": "2026-11-18",
    "name": "Backupino",
-   "num_ratings": 0,
-   "rating": 0,
+   "num_ratings": 1,
+   "rating": 100,
    "short_description": "Fast, resumable WordPress backups, cloning and migration with a self-contained installer.",
    "slug": "backupino",
    "support_threads": 0,
@@ -2287,8 +2215,8 @@
    "added": "2026-10-26",
    "author": "WP Sunshine",
    "days_old": 26,
-   "downloaded": 206,
-   "downloads_per_day_lifetime": 7.9,
+   "downloaded": 245,
+   "downloads_per_day_lifetime": 9.4,
    "last_updated": "2026-11-20",
    "name": "Sunshine UTM Builder",
    "num_ratings": 0,
@@ -2329,6 +2257,30 @@
     "restore"
    ],
    "url": "https://wordpress.org/plugins/pack-vault/"
+  },
+  {
+   "active_installs": 10,
+   "added": "2026-11-16",
+   "author": "i9 Publicidade",
+   "days_old": 5,
+   "downloaded": 181,
+   "downloads_per_day_lifetime": 36.2,
+   "last_updated": "2026-11-19",
+   "name": "i9 Monitoramento de Cliques",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Smart click tracking and interaction monitoring for buttons, links, and forms with built-in PDF reports, CSV export, and analytics dashboard.",
+   "slug": "i9-monitoramento-de-cliques",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "analytics",
+    "button-clicks",
+    "click-tracking",
+    "conversion",
+    "tracking"
+   ],
+   "url": "https://wordpress.org/plugins/i9-monitoramento-de-cliques/"
   },
   {
    "active_installs": 10,
@@ -2427,6 +2379,30 @@
    "url": "https://wordpress.org/plugins/devnotes/"
   },
   {
+   "active_installs": 10,
+   "added": "2026-11-19",
+   "author": "Sasanseyfi",
+   "days_old": 2,
+   "downloaded": 84,
+   "downloads_per_day_lifetime": 42.0,
+   "last_updated": "2026-11-21",
+   "name": "RavinDesk",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Admin styling, global search, notification bell, WooCommerce management cards and an optional local statistics dashboard.",
+   "slug": "ravindesk",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "accessibility",
+    "admin",
+    "customization",
+    "dashboard",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/ravindesk/"
+  },
+  {
    "active_installs": 0,
    "added": "2026-10-26",
    "author": "EqualFix",
@@ -2449,6 +2425,30 @@
     "wcag"
    ],
    "url": "https://wordpress.org/plugins/equalfix/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-11-05",
+   "author": "giftlight",
+   "days_old": 16,
+   "downloaded": 1328,
+   "downloads_per_day_lifetime": 83.0,
+   "last_updated": "2026-11-21",
+   "name": "Giftlight – Gift Guide & Gift Finder for WooCommerce",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "A gift guide built from your own WooCommerce products: who it's for, what to spend, what they're into. With a gift quiz one tap away.",
+   "slug": "giftlight",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "gift-finder",
+    "gift-guide",
+    "holiday",
+    "product-quiz",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/giftlight/"
   },
   {
    "active_installs": 0,
@@ -2477,39 +2477,15 @@
   {
    "active_installs": 0,
    "added": "2026-11-05",
-   "author": "giftlight",
-   "days_old": 16,
-   "downloaded": 1315,
-   "downloads_per_day_lifetime": 82.2,
-   "last_updated": "2026-11-20",
-   "name": "Giftlight – Gift Guide & Gift Finder for WooCommerce",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "A gift guide built from your own WooCommerce products: who it's for, what to spend, what they're into. With a gift quiz one tap away.",
-   "slug": "giftlight",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "gift-finder",
-    "gift-guide",
-    "holiday",
-    "product-quiz",
-    "woocommerce"
-   ],
-   "url": "https://wordpress.org/plugins/giftlight/"
-  },
-  {
-   "active_installs": 0,
-   "added": "2026-11-05",
    "author": "umarjaum",
    "days_old": 16,
-   "downloaded": 1056,
-   "downloads_per_day_lifetime": 66.0,
-   "last_updated": "2026-11-20",
+   "downloaded": 1105,
+   "downloads_per_day_lifetime": 69.1,
+   "last_updated": "2026-11-21",
    "name": "PublishRank",
    "num_ratings": 1,
    "rating": 80,
-   "short_description": "Free WordPress SEO for businesses and every kind of site: Schema Studio, Local SEO for up to 50 locations, WooCommerce SEO, sitemaps and diagnostics.",
+   "short_description": "Free WordPress SEO for every kind of site: a movable Gutenberg SEO editor, live previews, safer media URL changes, 404 diagnosis, bulk SEO review, sit …",
    "slug": "publishrank",
    "support_threads": 0,
    "support_threads_resolved": 0,
@@ -2521,6 +2497,30 @@
     "sitemap"
    ],
    "url": "https://wordpress.org/plugins/publishrank/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-10-28",
+   "author": "Bruno Kos",
+   "days_old": 24,
+   "downloaded": 1085,
+   "downloads_per_day_lifetime": 45.2,
+   "last_updated": "2026-11-20",
+   "name": "SwiftLing",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Multilingual WordPress: any number of languages, an address for each, Elementor, Bricks, WooCommerce, forms and SEO. Translate with your own API key.",
+   "slug": "swiftling",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "language-switcher",
+    "machine-translation",
+    "multilingual",
+    "translation",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/swiftling/"
   },
   {
    "active_installs": 0,
@@ -2545,30 +2545,6 @@
     "visitor-tracking"
    ],
    "url": "https://wordpress.org/plugins/faraiand-sale-assistant/"
-  },
-  {
-   "active_installs": 0,
-   "added": "2026-10-28",
-   "author": "Bruno Kos",
-   "days_old": 24,
-   "downloaded": 1049,
-   "downloads_per_day_lifetime": 43.7,
-   "last_updated": "2026-11-20",
-   "name": "SwiftLing",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Multilingual WordPress: any number of languages, an address for each, Elementor, Bricks, WooCommerce, forms and SEO. Translate with your own API key.",
-   "slug": "swiftling",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "language-switcher",
-    "machine-translation",
-    "multilingual",
-    "translation",
-    "woocommerce"
-   ],
-   "url": "https://wordpress.org/plugins/swiftling/"
   },
   {
    "active_installs": 0,
@@ -2884,30 +2860,6 @@
   },
   {
    "active_installs": 0,
-   "added": "2026-11-04",
-   "author": "Talay",
-   "days_old": 17,
-   "downloaded": 632,
-   "downloads_per_day_lifetime": 37.2,
-   "last_updated": "2026-11-20",
-   "name": "Click N’ Jump – Quick Navigation for the Elementor Editor",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Leave the Elementor editor for the Dashboard, SEO, Posts or Customizer in one click, then jump back to the page you were editing.",
-   "slug": "click-n-jump",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "admin-bar",
-    "dashboard",
-    "elementor",
-    "navigation",
-    "shortcuts"
-   ],
-   "url": "https://wordpress.org/plugins/click-n-jump/"
-  },
-  {
-   "active_installs": 0,
    "added": "2026-11-06",
    "author": "bandzis",
    "days_old": 15,
@@ -2929,6 +2881,30 @@
     "waste-clearance"
    ],
    "url": "https://wordpress.org/plugins/oscar-dispatch-waste-clearance-calculator/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-10-30",
+   "author": "VeronaLabs",
+   "days_old": 22,
+   "downloaded": 616,
+   "downloads_per_day_lifetime": 28.0,
+   "last_updated": "2026-11-21",
+   "name": "WConvert – Popup Builder, Email Optin Forms & Lead Capture",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Popup builder and optin forms for WordPress. Capture emails, phone numbers and enquiries with 270+ designs, 150+ free. No account, no view limits.",
+   "slug": "wconvert",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "email-list",
+    "lead-capture",
+    "optin-form",
+    "popup",
+    "popup-builder"
+   ],
+   "url": "https://wordpress.org/plugins/wconvert/"
   },
   {
    "active_installs": 0,
@@ -3025,30 +3001,6 @@
     "transients"
    ],
    "url": "https://wordpress.org/plugins/360-orbit-database-cleaner/"
-  },
-  {
-   "active_installs": 0,
-   "added": "2026-11-01",
-   "author": "SoftIcon",
-   "days_old": 20,
-   "downloaded": 569,
-   "downloads_per_day_lifetime": 28.4,
-   "last_updated": "2026-11-20",
-   "name": "SoftIcon Mega Menu",
-   "num_ratings": 0,
-   "rating": 0,
-   "short_description": "Add mega menus to the Navigation block in block themes. Design each dropdown panel in the Site Editor with any blocks.",
-   "slug": "softicon-mega-menu",
-   "support_threads": 0,
-   "support_threads_resolved": 0,
-   "tags": [
-    "block",
-    "block-theme",
-    "mega-menu",
-    "menu",
-    "navigation"
-   ],
-   "url": "https://wordpress.org/plugins/softicon-mega-menu/"
   },
   {
    "active_installs": 0,
@@ -3169,10 +3121,58 @@
     "tts"
    ],
    "url": "https://wordpress.org/plugins/auvrenth-text-to-speech-reader/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-10-28",
+   "author": "Paymos",
+   "days_old": 24,
+   "downloaded": 483,
+   "downloads_per_day_lifetime": 20.1,
+   "last_updated": "2026-11-21",
+   "name": "Paymos Stablecoin Checkout for WooCommerce",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Accept stablecoin payments with Paymos hosted checkout and signed webhooks.",
+   "slug": "paymos-stablecoin-checkout-for-woocommerce",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "payments",
+    "stablecoin",
+    "usdc",
+    "usdt",
+    "woocommerce"
+   ],
+   "url": "https://wordpress.org/plugins/paymos-stablecoin-checkout-for-woocommerce/"
+  },
+  {
+   "active_installs": 0,
+   "added": "2026-11-08",
+   "author": "Clickflame Rank Any Site",
+   "days_old": 13,
+   "downloaded": 476,
+   "downloads_per_day_lifetime": 36.6,
+   "last_updated": "2026-11-21",
+   "name": "Clickflame Rank Any Site",
+   "num_ratings": 0,
+   "rating": 0,
+   "short_description": "Find and track your business listings on directories, check each one's name, phone and place, and see what your live pages serve.",
+   "slug": "clickflame-rank-any-site",
+   "support_threads": 0,
+   "support_threads_resolved": 0,
+   "tags": [
+    "ai-search",
+    "business-listings",
+    "citations",
+    "local-seo",
+    "nap"
+   ],
+   "url": "https://wordpress.org/plugins/clickflame-rank-any-site/"
   }
  ],
  "opportunities": [],
- "plugins_tracked": 2762,
+ "plugins_tracked": 2758,
  "reviews": [
   {
    "complaints": [],
