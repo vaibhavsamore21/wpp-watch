@@ -1,0 +1,45 @@
+{
+ "reviews": [
+  {
+   "author": "zeshanhaiderwp",
+   "date": "Mon, 23 Nov 2026 08:20:14 +0000",
+   "first_seen": "2026-11-24",
+   "guid": "https://wordpress.org/support/topic/wonderful-migration-and-backup-plugin/",
+   "link": "https://wordpress.org/support/topic/wonderful-migration-and-backup-plugin/",
+   "stars": null,
+   "text": "Replies: 0 Rating: 5 stars Excellent plugin. It offers an amazing number of features!",
+   "title": "[Wrensafe – Backup, Restore & Migration] Wonderful Migration and Backup Plugin (5 stars)"
+  },
+  {
+   "author": "anwaralam311",
+   "date": "Mon, 23 Nov 2026 08:02:55 +0000",
+   "first_seen": "2026-11-24",
+   "guid": "https://wordpress.org/support/topic/a-powerful-all-in-one-backup-and-migration-solution/",
+   "link": "https://wordpress.org/support/topic/a-powerful-all-in-one-backup-and-migration-solution/",
+   "stars": null,
+   "text": "Replies: 0 Rating: 5 stars Wrensafe is a really useful WordPress plugin for managing backups, restoring websites, and migrating between servers. I like that it offers features like backup verification, automatic backups, safe updates, and direct migration in one place. The restore and rollback options are especially valuable because website safety should always come first. The interface and overall approach make website maintenance easier and give users more confidence when managing their WordPress sites. Great work by the developer. Definitely a plugin worth checking out!",
+   "title": "[Wrensafe – Backup, Restore & Migration] A Powerful All-in-One Backup and Migration Solution (5 stars)"
+  },
+  {
+   "author": "shanm4u",
+   "date": "Mon, 23 Nov 2026 07:40:13 +0000",
+   "first_seen": "2026-11-24",
+   "guid": "https://wordpress.org/support/topic/finally-a-migration-plugin-that-actually-works/",
+   "link": "https://wordpress.org/support/topic/finally-a-migration-plugin-that-actually-works/",
+   "stars": null,
+   "text": "Replies: 0 Rating: 5 stars I’ve been working with websites for quite a few years, and moving a site from one place to another has never been as easy as it should be. I’ve had migrations fail halfway through, plugins complaining about file size limits, and sometimes I’d just sit there waiting for hours with nothing happening. Came across this plugin and decided to give it a try, and I must say, it was a pleasant surprise. The whole process was much easier than I expected, and I didn’t run into the usual problems. I’ve used plenty of migration tools before, but this one definitely stands out. Great work by the developers!",
+   "title": "[Wrensafe – Backup, Restore & Migration] Finally, a Migration Plugin That Actually Works! (5 stars)"
+  },
+  {
+   "author": "zeeshanwebs",
+   "date": "Sun, 22 Nov 2026 20:01:10 +0000",
+   "first_seen": "2026-11-24",
+   "guid": "https://wordpress.org/support/topic/best-migration-plugin-i-have-ever-used-4/",
+   "link": "https://wordpress.org/support/topic/best-migration-plugin-i-have-ever-used-4/",
+   "stars": null,
+   "text": "Replies: 0 Rating: 5 stars I been building sites from years and was always having issues with migrations in between. Sometimes due to plugins limitations, sometimes due to storage capacity or allowed capacity issues and not to forget many times indefinite loadings on migrations. Well this plugin is kind of Best I have ever used so far.",
+   "title": "[Wrensafe – Backup, Restore & Migration] Best Migration Plugin I have ever used (5 stars)"
+  }
+ ],
+ "slug": "wrensafe"
+}
