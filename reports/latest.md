@@ -1,102 +1,101 @@
-# WP Plugin Radar – 2026-11-25
+# WP Plugin Radar – 2026-11-26
 
-Snapshots: 5 · plugins tracked today: 2,716 · 7-day baseline: 2026-11-21 · 30-day baseline: —
+Snapshots: 6 · plugins tracked today: 2,831 · 7-day baseline: 2026-11-21 · 30-day baseline: —
 
 ## 💡 Opportunities spotted
 
-- 'Babilim – Auto Translation & Language Packs' grew 73.9% in downloads (+873) – demand is proven in: automatic-translation, i18n, language-pack, localization.
 - 'Ocean Extra' is growing but only rated 66/100 with 67 ratings – users want it, but they are not happy. Build the better version.
 - 'WordPress Importer' is growing but only rated 62/100 with 326 ratings – users want it, but they are not happy. Build the better version.
+- 'AI Agent by SiteGround' is growing but only rated 34/100 with 98 ratings – users want it, but they are not happy. Build the better version.
 - 'Image Optimizer – Compress Images and Convert to WebP or AVIF' is growing but only rated 34/100 with 81 ratings – users want it, but they are not happy. Build the better version.
-- 'Google for WooCommerce' is growing but only rated 54/100 with 269 ratings – users want it, but they are not happy. Build the better version.
-- 'Contact Form 7' has 89 open support threads, only 31 resolved – poor support is an opening.
-- 'Limit Login Attempts Security – Login Security, 2FA, Firewall, Brute Force Prevention' has 13 open support threads, only 4 resolved – poor support is an opening.
-- 'WP Armour – Honeypot Anti Spam' has 13 open support threads, only 2 resolved – poor support is an opening.
+- 'Limit Login Attempts Security – Login Security, 2FA, Firewall, Brute Force Prevention' has 13 open support threads, only 5 resolved – poor support is an opening.
+- 'Contact Form 7' has 88 open support threads, only 30 resolved – poor support is an opening.
+- 'WP Armour – Honeypot Anti Spam' has 13 open support threads, only 3 resolved – poor support is an opening.
 
 ## 🆕 New plugins (added in last 30 days) with the most traction
 
 | Plugin | Age (d) | Active installs | Downloads | DL/day | Ratings | Tags |
 |---|---|---|---|---|---|---|
-| [EMCP Tools – MCP Plugin for WordPress: Powerful Page Builder Abilities & Modules](https://wordpress.org/plugins/emcp-lite/) | 28 | 500 | 3,603 | 128.7 | 4 | claude, elementor, mcp, mcp-server |
-| [Optiontics – Product Options & Variation Swatches for WooCommerce](https://wordpress.org/plugins/optiontics/) | 3 | 300 | 245 | 81.7 | 0 | custom-fields, extra-product-options, product-addons, product-customization |
-| [ChatSEO](https://wordpress.org/plugins/chatseo/) | 3 | 300 | 240 | 80.0 | 0 | gutenberg, rest-api, schema, seo |
-| [Screenroom – Video Gallery & Slider for YouTube](https://wordpress.org/plugins/screenroom/) | 15 | 200 | 2,093 | 139.5 | 1 | gdpr, video-gallery, video-slider, youtube |
-| [Simply Static Studio Backup and Migrate](https://wordpress.org/plugins/simply-static-studio-backup-migrate/) | 16 | 200 | 1,063 | 66.4 | 0 | backup, database, export, migration |
-| [Babilim – Auto Translation & Language Packs](https://wordpress.org/plugins/babilim/) | 16 | 100 | 2,054 | 128.4 | 0 | automatic-translation, i18n, language-pack, localization |
-| [FlyAffiliate – Affiliate Marketing, Referral Program and Commission Management for WooCommerce](https://wordpress.org/plugins/flyaffiliate/) | 27 | 100 | 1,027 | 38.0 | 0 | affiliate, affiliate-marketing, commission, referral-program |
-| [Migvora](https://wordpress.org/plugins/migvora/) | 5 | 100 | 294 | 58.8 | 1 | backup, clone, migration, move |
-| [PageNod](https://wordpress.org/plugins/pagenod/) | 5 | 90 | 421 | 84.2 | 0 | approval, bug-report, client-review, feedback |
-| [Pinpoint Booking System](https://wordpress.org/plugins/pinpoint-booking-system/) | 8 | 80 | 407 | 50.9 | 0 | appointment-scheduling, availability-management, booking-calendar, booking-system |
-| [RankFlect SEO – AI SEO Plugin with Schema, XML Sitemap, Meta Tags & Search Console](https://wordpress.org/plugins/rank-flect-seo/) | 23 | 60 | 1,939 | 84.3 | 5 | ai-seo, mcp, schema, seo |
-| [ProductBoxes – Mix & Match Box Builder for WooCommerce](https://wordpress.org/plugins/productboxes-mix-and-match-box-builder/) | 26 | 50 | 878 | 33.8 | 1 | build-your-own-box, bundle-discount, gift-box, mix-and-match |
-| [Super Speedy Performance Analysis](https://wordpress.org/plugins/super-speedy-performance-analysis/) | 2 | 50 | 97 | 48.5 | 0 | debug, performance, profiling, speed |
-| [Anar Toolkit – SMS Login, Recovery & Marketing for WooCommerce](https://wordpress.org/plugins/anar-toolkit/) | 19 | 30 | 1,516 | 79.8 | 0 | abandoned-cart, notifications, otp, sms |
-| [Yandex Delivery for WooCommerce](https://wordpress.org/plugins/yandex-delivery-for-woocommerce/) | 18 | 30 | 986 | 54.8 | 0 | courier-delivery, pickup-points, shipping, woocommerce |
-| [Divisero – Multicurrency for WooCommerce](https://wordpress.org/plugins/divisero-multicurrency-for-woocommerce/) | 22 | 30 | 554 | 25.2 | 0 | currency-converter, currency-switcher, exchange-rates, multi-currency |
-| [SSF Backup & Migrate](https://wordpress.org/plugins/ssf-backup-migrate/) | 5 | 30 | 172 | 34.4 | 0 | backup, migration, recovery, restore |
-| [Draftling – Duplicate Posts & Pages as Drafts](https://wordpress.org/plugins/draftling/) | 6 | 30 | 158 | 26.3 | 0 | clone, custom-post-type, duplicate-page, duplicate-post |
-| [Tech Dragon Divi Turnstile Nexus](https://wordpress.org/plugins/tech-dragon-divi-turnstile-nexus/) | 24 | 20 | 762 | 31.8 | 0 | cloudflare, divi, spam, turnstile |
-| [Translate by WP Provider](https://wordpress.org/plugins/translate-by-wp-provider/) | 5 | 20 | 420 | 84.0 | 1 | language, multilingual, translation, woocommerce |
+| [Runline – Marquee, News Ticker & Announcement Bar](https://wordpress.org/plugins/runline/) | 17 | 500 | 3,335 | 196.2 | 2 | announcement-bar, marquee, news-ticker, notification-bar |
+| [Optiontics – Product Options & Variation Swatches for WooCommerce](https://wordpress.org/plugins/optiontics/) | 4 | 300 | 292 | 73.0 | 0 | custom-fields, extra-product-options, product-addons, product-customization |
+| [ChatSEO – AI Content Writer & SEO Agent for Search Console](https://wordpress.org/plugins/chatseo/) | 4 | 200 | 296 | 74.0 | 0 | ai-seo, ai-writer, content-writer, search-console |
+| [Migvora](https://wordpress.org/plugins/migvora/) | 6 | 100 | 317 | 52.8 | 1 | backup, clone, migration, move |
+| [PageNod](https://wordpress.org/plugins/pagenod/) | 6 | 90 | 482 | 80.3 | 0 | approval, bug-report, client-review, feedback |
+| [RankFlect SEO – AI SEO Plugin with Schema, XML Sitemap, Meta Tags & Search Console](https://wordpress.org/plugins/rank-flect-seo/) | 24 | 60 | 2,028 | 84.5 | 5 | ai-seo, mcp, schema, seo |
+| [Super Speedy Performance Analysis](https://wordpress.org/plugins/super-speedy-performance-analysis/) | 3 | 60 | 180 | 60.0 | 0 | debug, performance, profiling, speed |
+| [Mintage Pay for WooCommerce](https://wordpress.org/plugins/mintage-pay/) | 30 | 50 | 637 | 21.2 | 0 | card-to-crypto, crypto-payments, payment-gateway, stablecoin |
+| [Pbase Magic Advent Calendar](https://wordpress.org/plugins/pbase-magic-advent-calendar/) | 26 | 40 | 744 | 28.6 | 2 | advent-calendar, christmas, giveaway, quiz |
+| [ROLLBAKR – Backup & Restore](https://wordpress.org/plugins/rollbakr/) | 7 | 40 | 214 | 30.6 | 0 | backup, database, download, files |
+| [Draftling – Duplicate Posts & Pages as Drafts](https://wordpress.org/plugins/draftling/) | 7 | 40 | 169 | 24.1 | 0 | clone, custom-post-type, duplicate-page, duplicate-post |
+| [WinOnWeb Migrate](https://wordpress.org/plugins/winonweb-migrate/) | 21 | 30 | 634 | 30.2 | 1 | backup, clone, migrate, migration |
+| [SSF Backup & Migrate](https://wordpress.org/plugins/ssf-backup-migrate/) | 6 | 30 | 205 | 34.2 | 0 | backup, migration, recovery, restore |
+| [Anar Toolkit – SMS Login, Recovery & Marketing for WooCommerce](https://wordpress.org/plugins/anar-toolkit/) | 20 | 20 | 1,585 | 79.2 | 0 | abandoned-cart, notifications, otp, sms |
+| [GlobeSign Speed Optimization](https://wordpress.org/plugins/globesign-speed-optimization/) | 29 | 20 | 782 | 27.0 | 0 | cache, lazy-load, minify, performance |
+| [Translate by WP Provider](https://wordpress.org/plugins/translate-by-wp-provider/) | 6 | 20 | 529 | 88.2 | 1 | language, multilingual, translation, woocommerce |
+| [NovaWork](https://wordpress.org/plugins/novawork/) | 1 | 20 | 83 | 83.0 | 0 | kanban, project-management, roadmap, team-chat |
+| [Stubli](https://wordpress.org/plugins/stubli/) | 29 | 10 | 2,640 | 91.0 | 0 | indieweb, photo-sharing, photos, social |
+| [Skillmerc Shipping for The Courier Guy, Pudo and PAXI](https://wordpress.org/plugins/skillmerc-shipping-courier-guy-pudo-paxi/) | 30 | 10 | 646 | 21.5 | 0 | fastway, paxi, pudo, south-africa |
+| [VoiceX – Text to Speech Reader](https://wordpress.org/plugins/wpxero-text-to-speech/) | 19 | 10 | 620 | 32.6 | 0 | accessibility, audio, read-aloud, text-to-speech |
 
 ## 🚀 This week: fast risers (highest % download growth)
 
 | Plugin | Δ downloads | Δ % | Δ installs | Rating | Tags |
 |---|---|---|---|---|---|
-| [Outstation – Taxi & Cab Booking for WooCommerce](https://wordpress.org/plugins/outstation-by-webowns/) | +313 | 303.9 | +0 | 0 | airport-transfer, cab-booking, car-rental, taxi-booking |
-| [PrintLoom – T-Shirt & Product Designer for WooCommerce](https://wordpress.org/plugins/printloom/) | +245 | 224.8 | +0 | 0 | custom-t-shirt, print-shop, product-customizer, product-designer |
-| [SmokyPost – Social Auto Share for Posts and Pages](https://wordpress.org/plugins/smokypost/) | +220 | 131.7 | +0 | 0 | auto-post, facebook, instagram, linkedin |
-| [Babilim – Auto Translation & Language Packs](https://wordpress.org/plugins/babilim/) | +873 | 73.9 | +0 | 0 | automatic-translation, i18n, language-pack, localization |
-| [Shopproof: EU Withdrawal Button and GPSR for WooCommerce](https://wordpress.org/plugins/shopproof/) | +250 | 35.7 | +0 | 0 | gpsr, right-of-withdrawal, widerrufsbutton, withdrawal-button |
-| [DEL Swish Checkout for WooCommerce](https://wordpress.org/plugins/del-swish-checkout/) | +389 | 32.4 | -10 | 100 | mobile-payment, payment-gateway, qr-code, swish |
-| [TorobPay for WooCommerce](https://wordpress.org/plugins/torobpay-for-woocommerce/) | +979 | 21.7 | +0 | 0 | %d8%aa%d8%b1%d8%a8%d9%be%db%8c, installments, payment-gateway, torobpay |
-| [I-Soft File Manager: Foundation](https://wordpress.org/plugins/isoft-fm-foundation/) | +251 | 21.3 | +0 | 0 | categories, document-management, download-counter, downloads |
-| [Kreebi AI Website Builder](https://wordpress.org/plugins/kreebi-ai-website-builder/) | +319 | 21.3 | +0 | 100 | ai, ai-page-builder, editor, landing-page |
-| [Content Sync, Media Sync, Import, Export with AI Agents Support](https://wordpress.org/plugins/import-export-by-rockstarlab/) | +620 | 12.0 | +0 | 100 | abilities, ai-agents, content-migration, content-sync |
-| [JKD Theme Companion](https://wordpress.org/plugins/jkd-theme-companion/) | +218 | 11.9 | +0 | 0 | demo-import, fonts, google-fonts, starter-content |
+| [PrintLoom – T-Shirt & Product Designer for WooCommerce](https://wordpress.org/plugins/printloom/) | +301 | 276.1 | +0 | 0 | custom-t-shirt, print-shop, product-customizer, product-designer |
+| [Meiku Charts – AI Charts, Graphs & Data Tables](https://wordpress.org/plugins/meiku-charts/) | +229 | 123.1 | +0 | 0 | ai, charts, data-visualization, graphs |
+| [Stubli](https://wordpress.org/plugins/stubli/) | +546 | 26.1 | +0 | 0 | indieweb, photo-sharing, photos, social |
+| [WebberZone Image Optimizer – WebP & AVIF Converter, Compress Images](https://wordpress.org/plugins/webberzone-image-optimizer/) | +336 | 26.0 | +10 | 100 | avif, compress-images, image-optimization, optimize-images |
+| [Appointment Booking Calendar & Scheduling – Zoe Booking](https://wordpress.org/plugins/zoebooking/) | +513 | 20.6 | +0 | 100 | appointments, booking, calendar, elementor |
+| [Anar Toolkit – SMS Login, Recovery & Marketing for WooCommerce](https://wordpress.org/plugins/anar-toolkit/) | +257 | 19.4 | +10 | 0 | abandoned-cart, notifications, otp, sms |
+| [SearchJetEngine – Instant Search for WordPress & WooCommerce](https://wordpress.org/plugins/searchjet-instant-search/) | +389 | 16.6 | +0 | 0 | ajax-search, instant-search, product-search, search |
+| [Giftlight – Gift Guide & Gift Finder for WooCommerce](https://wordpress.org/plugins/giftlight/) | +224 | 16.5 | +0 | 0 | gift-finder, gift-guide, holiday, product-quiz |
+| [EDZNET Security Guard](https://wordpress.org/plugins/edznet-security-guard/) | +208 | 16.4 | +10 | 0 | admin, brute-force, hardening, login |
+| [Content Sync, Media Sync, Import, Export with AI Agents Support](https://wordpress.org/plugins/import-export-by-rockstarlab/) | +801 | 15.6 | +0 | 100 | abilities, ai-agents, content-migration, content-sync |
+| [Digigyan SEO Toolkit](https://wordpress.org/plugins/digigyan-seo-toolkit/) | +292 | 15.4 | +10 | 0 | alt-text, bulk-edit, meta, schema |
+| [WSP MCP – Free MCP Plugin for WordPress: Connect Claude, ChatGPT & AI Agents](https://wordpress.org/plugins/wsp-mcp-ai-agents-connector/) | +2,785 | 12.1 | +1,000 | 100 | ai, ai-agent, chatgpt, claude |
 | [MCP Adapter](https://wordpress.org/plugins/mcp-adapter/) | +20,811 | 11.6 | +0 | 100 | abilities-api, ai, mcp, model-context-protocol |
-| [Appointment Booking Calendar & Scheduling – Zoe Booking](https://wordpress.org/plugins/zoebooking/) | +259 | 10.4 | +0 | 100 | appointments, booking, calendar, elementor |
-| [User Registration & Login – Magic Links & Email OTP Verification, Passkeys & 2FA, Form Builder, Cloudflare Turnstile, Google reCAPTCHA](https://wordpress.org/plugins/hmdia-login-registration/) | +341 | 9.8 | +0 | 100 | magic-link, otp, passkeys, passwordless |
-| [TranslateRocket – Free Multilingual Translation, Unlimited Languages](https://wordpress.org/plugins/translate-rocket/) | +1,036 | 8.5 | +100 | 100 | language, multilingual, translate, translation |
+| [TranslateRocket – Free Multilingual Translation, Unlimited Languages](https://wordpress.org/plugins/translate-rocket/) | +1,358 | 11.2 | +100 | 100 | language, multilingual, translate, translation |
+| [StructuraWP – AI Autoblogging & Auto Blog Post Scheduler](https://wordpress.org/plugins/structura/) | +215 | 9.9 | +0 | 100 | ai-writer, auto-blog, autoblogging, content-automation |
 
 ## 🔥 This week: booming (biggest absolute download gain)
 
 | Plugin | Δ downloads | DL/day | Active installs | Rating |
 |---|---|---|---|---|
-| [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) | +1,362,453 | 340613.2 | 10,000,000 | 80 |
-| [Popup Builder & Popup Maker for WordPress – OptinMonster Email Marketing and Lead Generation](https://wordpress.org/plugins/optinmonster/) | +889,911 | 222477.8 | 1,000,000 | 86 |
-| [Limit Login Attempts Security – Login Security, 2FA, Firewall, Brute Force Prevention](https://wordpress.org/plugins/limit-login-attempts-reloaded/) | +852,802 | 213200.5 | 1,000,000 | 96 |
-| [Yoast SEO – Advanced SEO with real-time guidance and built-in AI](https://wordpress.org/plugins/wordpress-seo/) | +590,748 | 147687.0 | 10,000,000 | 96 |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | +529,023 | 132255.8 | 7,000,000 | 90 |
-| [Elementor Agent Ready Website Builder](https://wordpress.org/plugins/elementor/) | +445,988 | 111497.0 | 10,000,000 | 90 |
-| [Cookie Compliance for WordPress – Cookie Consent, GDPR & CCPA](https://wordpress.org/plugins/cookie-notice/) | +278,353 | 69588.2 | 800,000 | 96 |
-| [WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz & More](https://wordpress.org/plugins/wpforms-lite/) | +277,402 | 69350.5 | 5,000,000 | 96 |
-| [Ninja Forms – Contact Form Builder with Calculators, Quizzes, Signatures & AI Form Builder](https://wordpress.org/plugins/ninja-forms/) | +212,967 | 53241.8 | 500,000 | 88 |
-| [WP Statistics – Simple, privacy-friendly Google Analytics alternative](https://wordpress.org/plugins/wp-statistics/) | +198,818 | 49704.5 | 500,000 | 82 |
-| [Wordfence Security – Firewall, Malware Scan, and Login Security](https://wordpress.org/plugins/wordfence/) | +191,068 | 47767.0 | 5,000,000 | 94 |
-| [WP Mail SMTP by WPForms – SMTP for Reliable Email Delivery with Gmail, Outlook, Amazon SES, Brevo, Other SMTP & More](https://wordpress.org/plugins/wp-mail-smtp/) | +185,270 | 46317.5 | 4,000,000 | 96 |
-| [Site Kit by Google – Analytics, Search Console, AdSense, Speed](https://wordpress.org/plugins/google-site-kit/) | +178,133 | 44533.2 | 5,000,000 | 84 |
-| [Post Types Order](https://wordpress.org/plugins/post-types-order/) | +173,950 | 43487.5 | 600,000 | 90 |
-| [WP Go Maps – Google Map, OpenStreetMap, Leaflet & Store Locator](https://wordpress.org/plugins/wp-google-maps/) | +167,675 | 41918.8 | 300,000 | 96 |
+| [Elementor Agent Ready Website Builder](https://wordpress.org/plugins/elementor/) | +3,222,312 | 644462.4 | 10,000,000 | 90 |
+| [WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz & More](https://wordpress.org/plugins/wpforms-lite/) | +2,125,689 | 425137.8 | 5,000,000 | 96 |
+| [Limit Login Attempts Security – Login Security, 2FA, Firewall, Brute Force Prevention](https://wordpress.org/plugins/limit-login-attempts-reloaded/) | +1,630,625 | 326125.0 | 1,000,000 | 96 |
+| [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) | +1,488,675 | 297735.0 | 10,000,000 | 80 |
+| [WP Mail SMTP by WPForms – SMTP for Reliable Email Delivery with Gmail, Outlook, Amazon SES, Brevo, Other SMTP & More](https://wordpress.org/plugins/wp-mail-smtp/) | +1,402,662 | 280532.4 | 4,000,000 | 96 |
+| [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/) | +1,166,299 | 233259.8 | 7,000,000 | 96 |
+| [Popup Builder & Popup Maker for WordPress – OptinMonster Email Marketing and Lead Generation](https://wordpress.org/plugins/optinmonster/) | +908,627 | 181725.4 | 1,000,000 | 86 |
+| [Yoast SEO – Advanced SEO with real-time guidance and built-in AI](https://wordpress.org/plugins/wordpress-seo/) | +725,735 | 145147.0 | 10,000,000 | 96 |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | +639,505 | 127901.0 | 7,000,000 | 90 |
+| [Cookie Compliance for WordPress – Cookie Consent, GDPR & CCPA](https://wordpress.org/plugins/cookie-notice/) | +526,485 | 105297.0 | 800,000 | 96 |
+| [WP Go Maps – Google Map, OpenStreetMap, Leaflet & Store Locator](https://wordpress.org/plugins/wp-google-maps/) | +334,159 | 66831.8 | 300,000 | 96 |
+| [Converter for Media – Optimize images | Convert WebP & AVIF](https://wordpress.org/plugins/webp-converter-for-media/) | +291,857 | 58371.4 | 500,000 | 98 |
+| [Kadence Blocks — Page Builder Toolkit for Gutenberg Editor](https://wordpress.org/plugins/kadence-blocks/) | +257,184 | 51436.8 | 600,000 | 96 |
+| [Site Kit by Google – Analytics, Search Console, AdSense, Speed](https://wordpress.org/plugins/google-site-kit/) | +242,964 | 48592.8 | 5,000,000 | 84 |
+| [Wordfence Security – Firewall, Malware Scan, and Login Security](https://wordpress.org/plugins/wordfence/) | +239,698 | 47939.6 | 5,000,000 | 94 |
 
 ## ⭐ This week: most new reviews
 
 | Plugin | Δ ratings | Total ratings | Rating |
 |---|---|---|---|
-| [Discount Rules for WooCommerce](https://wordpress.org/plugins/woo-discount-rules/) | +5 | 1,419 | 98 |
-| [WP Mail SMTP by WPForms – SMTP for Reliable Email Delivery with Gmail, Outlook, Amazon SES, Brevo, Other SMTP & More](https://wordpress.org/plugins/wp-mail-smtp/) | +5 | 5,222 | 96 |
-| [Wordfence Security – Firewall, Malware Scan, and Login Security](https://wordpress.org/plugins/wordfence/) | +4 | 5,058 | 94 |
-| [WP Go Maps – Google Map, OpenStreetMap, Leaflet & Store Locator](https://wordpress.org/plugins/wp-google-maps/) | +4 | 3,073 | 96 |
+| [WP Mail SMTP by WPForms – SMTP for Reliable Email Delivery with Gmail, Outlook, Amazon SES, Brevo, Other SMTP & More](https://wordpress.org/plugins/wp-mail-smtp/) | +8 | 5,225 | 96 |
+| [Discount Rules for WooCommerce](https://wordpress.org/plugins/woo-discount-rules/) | +6 | 1,420 | 98 |
+| [Wordfence Security – Firewall, Malware Scan, and Login Security](https://wordpress.org/plugins/wordfence/) | +6 | 5,060 | 94 |
+| [WP Go Maps – Google Map, OpenStreetMap, Leaflet & Store Locator](https://wordpress.org/plugins/wp-google-maps/) | +5 | 3,074 | 96 |
+| [AI Engine – MCP Server & AI Chatbot for WordPress, with Claude, ChatGPT & Gemini](https://wordpress.org/plugins/ai-engine/) | +4 | 884 | 98 |
+| [TranslateRocket – Free Multilingual Translation, Unlimited Languages](https://wordpress.org/plugins/translate-rocket/) | +4 | 8 | 100 |
+| [Brevo for WooCommerce](https://wordpress.org/plugins/woocommerce-sendinblue-newsletter-subscription/) | +4 | 66 | 72 |
 | [Wrensafe – Backup, Restore & Migration](https://wordpress.org/plugins/wrensafe/) | +4 | 4 | 100 |
+| [Booking for Appointments and Events Calendar – Amelia](https://wordpress.org/plugins/ameliabooking/) | +3 | 800 | 92 |
+| [WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager](https://wordpress.org/plugins/insert-headers-and-footers/) | +3 | 1,940 | 98 |
 | [PixelYourSite – Your smart PIXEL (TAG) & API Manager](https://wordpress.org/plugins/pixelyoursite/) | +3 | 284 | 86 |
-| [SwiftLing](https://wordpress.org/plugins/swiftling/) | +3 | 3 | 100 |
+| [Table of Contents Plus – Automatic Table of Contents for Posts & Pages](https://wordpress.org/plugins/table-of-contents-plus/) | +3 | 193 | 90 |
 | [Vibe AI – MCP Server for WordPress, works with Claude, ChatGPT & other AI MCP agents](https://wordpress.org/plugins/vibe-ai/) | +3 | 224 | 100 |
-| [Brevo for WooCommerce](https://wordpress.org/plugins/woocommerce-sendinblue-newsletter-subscription/) | +3 | 65 | 72 |
-| [AI Engine – MCP Server & AI Chatbot for WordPress, with Claude, ChatGPT & Gemini](https://wordpress.org/plugins/ai-engine/) | +2 | 882 | 98 |
-| [Booking for Appointments and Events Calendar – Amelia](https://wordpress.org/plugins/ameliabooking/) | +2 | 799 | 92 |
-| [AutoHix News Automation](https://wordpress.org/plugins/autohix/) | +2 | 2 | 100 |
-| [Forminator Forms – Contact Form, Payment Form & Custom Form Builder](https://wordpress.org/plugins/forminator/) | +2 | 2,155 | 96 |
-| [Translate WordPress with GTranslate](https://wordpress.org/plugins/gtranslate/) | +2 | 4,966 | 98 |
-| [Imagify Image Optimization: Optimize Images | Compress & Convert to WebP/AVIF](https://wordpress.org/plugins/imagify/) | +2 | 1,659 | 86 |
+| [WooCommerce PayPal Payments](https://wordpress.org/plugins/woocommerce-paypal-payments/) | +3 | 594 | 58 |
+| [WP Mail Logging](https://wordpress.org/plugins/wp-mail-logging/) | +3 | 379 | 94 |
 
 ## 🚀 This month: fast risers (highest % download growth)
 
@@ -114,26 +113,26 @@ _no data yet (need an older snapshot to compare against)_
 
 | Tag | New plugins | Rising | Δ downloads | Examples |
 |---|---|---|---|---|
-| woocommerce | 336 | 12 | +1,728 | super-speedy-performance-analysis, anar-toolkit, yandex-delivery-for-woocommerce |
-| ai | 89 | 1 | +144 | seolok, blaze-mcp-toolkit-for-woocommerce, baton |
-| seo | 70 | 0 | +0 | chatseo, rank-flect-seo, publishrank |
-| chatbot | 43 | 0 | +0 | chattoko, flatratechat, chatnsell-for-woocommerce |
-| customer-support | 38 | 0 | +0 | talkieon-live-chat, flatratechat, awp-support-desk |
-| elementor | 35 | 0 | +0 | emcp-lite, plugetune, agencia-rse-image-zoom |
-| live-chat | 34 | 0 | +0 | chattoko, talkieon-live-chat, weglob-ai-agent |
-| analytics | 33 | 0 | +0 | sectivio, blaze-mcp-toolkit-for-woocommerce, yaab-analytics |
-| security | 32 | 0 | +0 | codecaste-media-and-safe-svg-file-upload-rules, doctorx-hardening, sysdoctor |
-| schema | 28 | 1 | +119 | chatseo, rank-flect-seo, joo-faq-advanced |
-| booking | 27 | 0 | +0 | sbs-kalender-assistent, crenaly, meser10-booking-reminders |
-| ai-chatbot | 25 | 0 | +0 | emma-by-stimhaus, talkieon-live-chat, flatratechat |
-| chat | 24 | 0 | +0 | talkieon-live-chat, chattermate-chat, hharunasik-smart-contact-center |
-| contact-form-7 | 24 | 0 | +0 | gateform, nbots, flatlineform |
-| checkout | 23 | 0 | +0 | ffl-monkey-checkout-for-woocommerce, daybound-delivery-date, coin-moebius-buy-button |
-| accessibility | 21 | 1 | +191 | ravindesk, equalfix, msacalab-accessibility-checker |
-| inventory | 21 | 0 | +0 | nexo-arg-for-woocommerce, vasyerp-for-woocommerce, piecehealth |
-| mcp | 20 | 0 | +0 | emcp-lite, rank-flect-seo, leitvia-studio |
-| migration | 19 | 1 | +245 | simply-static-studio-backup-migrate, migvora, ssf-backup-migrate |
-| backup | 18 | 1 | +245 | simply-static-studio-backup-migrate, migvora, ssf-backup-migrate |
+| woocommerce | 338 | 9 | +1,331 | super-speedy-performance-analysis, anar-toolkit, translate-by-wp-provider |
+| ai | 84 | 1 | +178 | meiku-charts, agenticcart-core, perezoso-ai |
+| seo | 78 | 0 | +0 | chatseo, rank-flect-seo, webquick-seo |
+| customer-support | 41 | 0 | +0 | astrichat-connector, talkieon-live-chat, awp-support-desk |
+| chatbot | 41 | 0 | +0 | agenticcart-core, chatporch-ai-chatbot, hovor-chat |
+| elementor | 40 | 0 | +0 | visigate, ston-motion, joryio |
+| security | 39 | 0 | +0 | syncnet-patch-radar, aracne-security, atshift-ip-blocker |
+| live-chat | 39 | 0 | +0 | bugalou-live-chat, astrichat-connector, talkieon-live-chat |
+| analytics | 35 | 0 | +0 | sectivio, money-nose, rhoos-analytics |
+| booking | 29 | 0 | +0 | sbs-kalender-assistent, incentrosdeportivos, book-surfer |
+| schema | 28 | 1 | +119 | rank-flect-seo, webquick-seo, rankdar-seo |
+| chat | 28 | 0 | +0 | talkieon-live-chat, chattermate-chat, cluable-ai-chat-assistant |
+| checkout | 27 | 0 | +0 | streetfill, business-watchdog, aluleth-funnels |
+| ai-chatbot | 27 | 0 | +0 | aiwend, bugalou-live-chat, astrichat-connector |
+| contact-form-7 | 25 | 0 | +0 | nextial-form-events, utmtrackr-lite, joryio |
+| accessibility | 22 | 1 | +229 | wpxero-text-to-speech, ravindesk, tokenforge |
+| backup | 18 | 2 | +406 | migvora, rollbakr, winonweb-migrate |
+| migration | 18 | 1 | +268 | migvora, winonweb-migrate, ssf-backup-migrate |
+| performance | 18 | 1 | +136 | super-speedy-performance-analysis, globesign-speed-optimization, bloatwright |
+| inventory | 18 | 1 | +118 | vasyerp-for-woocommerce, piecehealth, molecolab-supplier-catalogue-sync |
 
 ## 🗣️ What users are saying (tracked plugins)
 
