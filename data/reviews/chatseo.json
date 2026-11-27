@@ -1,4 +1,15 @@
 {
- "reviews": [],
+ "reviews": [
+  {
+   "author": "leconsultantdigital",
+   "date": "Thu, 26 Nov 2026 16:07:45 +0000",
+   "first_seen": "2026-11-27",
+   "guid": "https://wordpress.org/support/topic/le-chatgpt-du-seo/",
+   "link": "https://wordpress.org/support/topic/le-chatgpt-du-seo/",
+   "stars": null,
+   "text": "Replies: 0 Rating: 5 stars ChatSEO est l’outil à avoir pour faire du SEO facilement et intelligemment. Il accède à toutes les données indispensables pour une analyse précise et agit comme un consultant expert pour mettre en place une stratégie optimisée SEO/GEO.",
+   "title": "[ChatSEO – AI Content Writer & SEO Agent for Search Console] Le chatGPT du SEO (5 stars)"
+  }
+ ],
  "slug": "chatseo"
 }
